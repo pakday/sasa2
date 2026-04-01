@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Start Your Trip — Sasa Travel",
   description:
-    "Begin the conversation with Sasa Travel. Share a few details about the journey you're looking for and we'll match you with the right person on our team.",
+    "Begin Conversation with Sasa Travel. Share a few details about the journey you're looking for and we'll match you with the right person on our team.",
 };
 
 export default function StartYourTripPage() {
@@ -26,7 +26,7 @@ export default function StartYourTripPage() {
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
-            Begin the Conversation
+            Begin Conversation
           </p>
           <h1 className="font-serif font-bold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-6">
             Start Your Trip

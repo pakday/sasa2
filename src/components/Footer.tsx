@@ -95,9 +95,9 @@ export default function Footer() {
             <div className="mt-8">
               <Link
                 href="/start-your-trip"
-                className="inline-block btn-secondary btn-sm mt-8"
+                className="inline-block btn-secondary mt-8"
               >
-                Begin the Conversation
+                Begin Conversation
               </Link>
             </div>
           </div>

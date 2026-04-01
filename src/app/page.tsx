@@ -374,7 +374,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/curated-escapes"
-              className="hidden md:inline-block btn-secondary btn-sm"
+              className="hidden md:inline-block btn-secondary"
             >
               View All Journeys
             </Link>
@@ -590,7 +590,7 @@ export default function HomePage() {
             vision.
           </p>
           <Link href="/start-your-trip" className="btn-light btn-lg">
-            Begin the Conversation
+            Begin Conversation
           </Link>
         </div>
       </section>

@@ -95,8 +95,7 @@ const destinations = [
     tagline: "Beaches & Spice Islands",
     description:
       "An archipelago of powder-white beaches, turquoise waters, and centuries of Swahili culture. The perfect complement to an East African safari — barefoot luxury and timeless beauty.",
-    image:
-      "/images/general%20pics%20for%20the%20site%20use/KENYA/fav%202.jpeg",
+    image: "/images/general%20pics%20for%20the%20site%20use/KENYA/fav%202.jpeg",
     href: "/destinations/zanzibar",
   },
   {
@@ -285,7 +284,7 @@ export default function DestinationsPage() {
             that&apos;s right for you.
           </p>
           <Link href="/start-your-trip" className="btn-light btn-lg">
-            Begin the Conversation
+            Begin Conversation
           </Link>
         </div>
       </section>

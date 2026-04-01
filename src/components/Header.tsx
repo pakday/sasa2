@@ -119,7 +119,7 @@ export default function Header() {
           <div className="flex items-center justify-end gap-2">
             <Link
               href="/start-your-trip"
-              className="hidden lg:inline-block btn-primary btn-sm"
+              className="hidden lg:inline-block btn-primary"
             >
               Start Your Trip
             </Link>

@@ -380,7 +380,7 @@ export default function BotswanaPage() {
             </h3>
             <Link
               href="/destinations"
-              className="hidden sm:inline-block btn-secondary btn-sm"
+              className="hidden sm:inline-block btn-secondary"
             >
               View All
             </Link>

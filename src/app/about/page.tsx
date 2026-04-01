@@ -106,7 +106,7 @@ export default function AboutPage() {
                 with the place, with the moment, and with yourself.
               </p>
               <Link href="/start-your-trip" className="btn-primary">
-                Begin the Conversation
+                Begin Conversation
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-3">
