@@ -47,7 +47,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/logo/sasa-logo.png"
+              src="/logo/sasa-travel-logo.png"
               alt="Sasa Travel"
               width={140}
               height={50}

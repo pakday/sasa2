@@ -112,7 +112,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 gap-3">
               <div className="relative h-72 overflow-hidden">
                 <Image
-                  src="/Pictures/Botswana/16167.jpg"
+                  src="/images/Botswana/16167.jpg"
                   alt="Botswana safari"
                   fill
                   className="object-cover"
@@ -121,7 +121,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-72 overflow-hidden">
                 <Image
-                  src="/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg"
+                  src="/images/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg"
                   alt="Rwanda landscape"
                   fill
                   className="object-cover"
@@ -130,7 +130,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-56 overflow-hidden">
                 <Image
-                  src="/Pictures/general%20pics%20for%20the%20site%20use/KENYA/antelope-4121962_1280.jpg"
+                  src="/images/general%20pics%20for%20the%20site%20use/KENYA/antelope-4121962_1280.jpg"
                   alt="Kenya wildlife"
                   fill
                   className="object-cover"
@@ -139,7 +139,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-56 overflow-hidden">
                 <Image
-                  src="/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg"
+                  src="/images/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg"
                   alt="Tanzania"
                   fill
                   className="object-cover"
@@ -158,7 +158,7 @@ export default function AboutPage() {
             <div className="lg:col-span-1">
               <div className="relative h-80 lg:h-[460px] overflow-hidden">
                 <Image
-                  src="/Pictures/general%20pics%20for%20the%20site%20use/harshil-gudka-pU-9BYqjhyo-unsplash%20(1).jpg"
+                  src="/images/general%20pics%20for%20the%20site%20use/harshil-gudka-pU-9BYqjhyo-unsplash%20(1).jpg"
                   alt="Emmanuel Kwizera, Founder"
                   fill
                   className="object-cover object-top"
@@ -230,7 +230,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 items-center">
             <div className="relative h-80 lg:h-[560px] overflow-hidden">
               <Image
-                src="/Pictures/general%20pics%20for%20the%20site%20use/KENYA/sutirta-budiman-kjOBqwMUnWw-unsplash%20(1).jpg"
+                src="/images/general%20pics%20for%20the%20site%20use/KENYA/sutirta-budiman-kjOBqwMUnWw-unsplash%20(1).jpg"
                 alt="Our team in the field"
                 fill
                 className="object-cover"

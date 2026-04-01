@@ -7,42 +7,42 @@ const destinations = [
   {
     name: "Botswana",
     sub: "Okavango Delta & Kalahari",
-    image: "/Pictures/Botswana/16167.jpg",
+    image: "/images/Botswana/16167.jpg",
     href: "/destinations/botswana",
   },
   {
     name: "Kenya",
     sub: "Maasai Mara & Amboseli",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/KENYA/antelope-4121962_1280.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/KENYA/antelope-4121962_1280.jpg",
     href: "/destinations/kenya",
   },
   {
     name: "Rwanda",
     sub: "Gorilla Trekking & Akagera",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg",
     href: "/destinations/rwanda",
   },
   {
     name: "Tanzania",
     sub: "Serengeti & Ngorongoro",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg",
     href: "/destinations/tanzania",
   },
   {
     name: "Zimbabwe",
     sub: "Victoria Falls & Hwange",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg",
     href: "/destinations/zimbabwe",
   },
   {
     name: "South Africa",
     sub: "Kruger & Cape Winelands",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg",
     href: "/destinations/south-africa",
   },
 ];
@@ -55,7 +55,7 @@ const escapes = [
     description:
       "Kenya, Rwanda & Tanzania over 15 unforgettable days of wildlife, culture, and adventure. Begin in Nairobi, continue to Kigali for rare gorilla trekking, then head into Tanzania's iconic safari landscapes.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/KENYA/lisa-stockton-6bnNiZYIv6c-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/KENYA/lisa-stockton-6bnNiZYIv6c-unsplash.jpg",
     href: "/curated-escapes",
   },
   {
@@ -65,7 +65,7 @@ const escapes = [
     description:
       "Zimbabwe, Botswana, Kenya & Rwanda over 12 days aboard the Emirates Executive Private Jet. A rare way to experience the continent in exceptional comfort and exclusivity. Limited dates for 2026–2027.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/Favorite%201%202.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/RWANDA/Favorite%201%202.jpeg",
     href: "/curated-escapes",
   },
   {
@@ -75,7 +75,7 @@ const escapes = [
     description:
       "Kilimanjaro via the Machame Route — a 9-day guided ascent of the world's tallest free-standing mountain. Designed to take you to the summit at a steady, well-considered pace.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/glen-michaelsen-uAb6GF4kPq0-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/TANZANIA/glen-michaelsen-uAb6GF4kPq0-unsplash.jpg",
     href: "/curated-escapes",
   },
 ];
@@ -85,7 +85,7 @@ const journalPosts = [
     category: "Destinations",
     date: "March 2026",
     title: "Into the Okavango: Why Botswana Belongs on Every Safari List",
-    image: "/Pictures/Botswana/hyenas-laying-down-round.jpg",
+    image: "/images/Botswana/hyenas-laying-down-round.jpg",
     href: "/destinations/botswana",
   },
   {
@@ -93,7 +93,7 @@ const journalPosts = [
     date: "February 2026",
     title: "Rwanda Revealed: Gorilla Trekking and Cultural Connection",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg",
     href: "/destinations/rwanda",
   },
   {
@@ -101,7 +101,7 @@ const journalPosts = [
     date: "January 2026",
     title: "The Art of Slow Travel: Why Less Is More on an African Safari",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/sergey-pesterev-DWXR-nAbxCk-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/TANZANIA/sergey-pesterev-DWXR-nAbxCk-unsplash.jpg",
     href: "/destinations/tanzania",
   },
 ];
@@ -219,7 +219,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 items-center">
             <div className="relative h-[500px] overflow-hidden">
               <Image
-                src="/Pictures/general%20pics%20for%20the%20site%20use/AdobeStock_312250474.jpeg"
+                src="/images/general%20pics%20for%20the%20site%20use/AdobeStock_312250474.jpeg"
                 alt="Africa landscape"
                 fill
                 className="object-cover"
@@ -310,7 +310,7 @@ export default function HomePage() {
             <div className="lg:col-span-2">
               <div className="relative h-96 lg:h-[560px] overflow-hidden">
                 <Image
-                  src="/Pictures/general%20pics%20for%20the%20site%20use/harshil-gudka-pU-9BYqjhyo-unsplash%20(1).jpg"
+                  src="/images/general%20pics%20for%20the%20site%20use/harshil-gudka-pU-9BYqjhyo-unsplash.jpg"
                   alt="Emmanuel Kwizera, Founder"
                   fill
                   className="object-cover object-top"
@@ -487,7 +487,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="relative h-72 lg:h-[460px] overflow-hidden">
               <Image
-                src="/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/AdobeStock_51767739.jpeg"
+                src="/images/general%20pics%20for%20the%20site%20use/TANZANIA/AdobeStock_51767739.jpeg"
                 alt="Community and landscape in Africa"
                 fill
                 className="object-cover"
@@ -568,7 +568,7 @@ export default function HomePage() {
       <section className="relative py-32 md:py-40 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/timothy-k-8eaxug2els0-unsplash.jpg"
+            src="/images/general%20pics%20for%20the%20site%20use/RWANDA/timothy-k-8eaxug2els0-unsplash.jpg"
             alt=""
             fill
             className="object-cover"

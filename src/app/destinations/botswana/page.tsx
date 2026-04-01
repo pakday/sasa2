@@ -11,26 +11,26 @@ export const metadata: Metadata = {
 
 const highlights = [
   {
-    image: "/Pictures/Botswana/hyenas-laying-down-round.jpg",
+    image: "/images/Botswana/hyenas-laying-down-round.jpg",
     title: "Exceptional Wildlife",
     description:
       "Home to Africa's largest elephant population and an extraordinary density of predators — lions, leopards, cheetahs, and wild dogs.",
   },
   {
-    image: "/Pictures/Botswana/16167.jpg",
+    image: "/images/Botswana/16167.jpg",
     title: "The Okavango Delta",
     description:
       "One of the world's most unique ecosystems — a vast inland river delta teeming with wildlife, navigated by traditional mokoro canoes.",
   },
   {
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/AdobeStock_312250474.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/AdobeStock_312250474.jpeg",
     title: "Low-Impact Luxury",
     description:
       "Botswana's high-value, low-volume approach to tourism means exclusive access to pristine landscapes with beautifully designed camps.",
   },
   {
-    image: "/Pictures/Botswana/8776.jpg",
+    image: "/images/Botswana/8776.jpg",
     title: "Varied Landscapes",
     description:
       "From lush floodplains of the Delta and Linyanti to the salt pans of Makgadikgadi and the solitude of the Kalahari.",
@@ -166,7 +166,7 @@ export default function BotswanaPage() {
       {/* ── Pull Quote Divider ────────────────────────────────────────── */}
       <div className="relative h-60 lg:h-72 overflow-hidden flex items-center justify-center">
         <Image
-          src="/Pictures/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg"
+          src="/images/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg"
           alt="Botswana wildlife"
           fill
           className="object-cover object-center"
@@ -198,7 +198,7 @@ export default function BotswanaPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
             <div className="relative h-80 lg:h-auto min-h-[420px]">
               <Image
-                src="/Pictures/Botswana/16167.jpg"
+                src="/images/Botswana/16167.jpg"
                 alt="13-Day Botswana Safari"
                 fill
                 className="object-cover"
@@ -286,27 +286,27 @@ export default function BotswanaPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             {[
               {
-                src: "/Pictures/Botswana/16167.jpg",
+                src: "/images/Botswana/16167.jpg",
                 alt: "Botswana safari landscape",
               },
               {
-                src: "/Pictures/Botswana/8776.jpg",
+                src: "/images/Botswana/8776.jpg",
                 alt: "Wildlife in Botswana",
               },
               {
-                src: "/Pictures/Botswana/hyenas-laying-down-round.jpg",
+                src: "/images/Botswana/hyenas-laying-down-round.jpg",
                 alt: "Hyenas at rest in Botswana",
               },
               {
-                src: "/Pictures/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg",
+                src: "/images/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg",
                 alt: "African savanna",
               },
               {
-                src: "/Pictures/general%20pics%20for%20the%20site%20use/AdobeStock_312250474.jpeg",
+                src: "/images/general%20pics%20for%20the%20site%20use/AdobeStock_312250474.jpeg",
                 alt: "African wildlife",
               },
               {
-                src: "/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg",
+                src: "/images/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg",
                 alt: "Africa landscape",
               },
             ].map((img) => (
@@ -390,25 +390,25 @@ export default function BotswanaPage() {
               {
                 name: "Kenya",
                 image:
-                  "/Pictures/general%20pics%20for%20the%20site%20use/KENYA/antelope-4121962_1280.jpg",
+                  "/images/general%20pics%20for%20the%20site%20use/KENYA/antelope-4121962_1280.jpg",
                 href: "/destinations/kenya",
               },
               {
                 name: "Rwanda",
                 image:
-                  "/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg",
+                  "/images/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg",
                 href: "/destinations/rwanda",
               },
               {
                 name: "Tanzania",
                 image:
-                  "/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg",
+                  "/images/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg",
                 href: "/destinations/tanzania",
               },
               {
                 name: "Zimbabwe",
                 image:
-                  "/Pictures/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg",
+                  "/images/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg",
                 href: "/destinations/zimbabwe",
               },
             ].map((d) => (

@@ -15,7 +15,7 @@ export default function StartYourTripPage() {
       <section className="relative py-28 md:py-36 overflow-hidden bg-sasa-brown">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="/Pictures/Botswana/8776.jpg"
+            src="/images/Botswana/8776.jpg"
             alt=""
             fill
             className="object-cover"

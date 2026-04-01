@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Image
-              src="/logo/sasa-logo.png"
+              src="/logo/sasa-travel-logo.png"
               alt="Sasa Travel"
               width={160}
               height={50}

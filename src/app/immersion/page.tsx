@@ -14,7 +14,7 @@ const locations = [
     city: "Casablanca",
     country: "Morocco",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/MOROCCO/giuseppe-gurrieri-bcWFbTYge7I-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/MOROCCO/giuseppe-gurrieri-bcWFbTYge7I-unsplash.jpg",
     description:
       "Africa's business capital. Work within Morocco's dynamic commercial ecosystem, engaging with a network of small businesses at the intersection of African and European markets.",
     highlights: [
@@ -28,7 +28,7 @@ const locations = [
     city: "Kigali",
     country: "Rwanda",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/timothy-k-8eaxug2els0-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/RWANDA/timothy-k-8eaxug2els0-unsplash.jpg",
     description:
       "One of Africa's fastest-growing cities and a hub of innovation. Kigali offers hands-on experience within Rwanda's thriving start-up and small business scene in one of the continent's most progressive environments.",
     highlights: [
@@ -42,7 +42,7 @@ const locations = [
     city: "Cape Town",
     country: "South Africa",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg",
     description:
       "A world-class city at the tip of the continent. Cape Town's diverse economy and creative industry make it an ideal location to build real professional skills while exploring one of Africa's most beautiful and complex cities.",
     highlights: [
@@ -122,7 +122,7 @@ export default function ImmersionPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/Pictures/general%20pics%20for%20the%20site%20use/KENYA/Fav%203%202.jpeg"
+                  src="/images/general%20pics%20for%20the%20site%20use/KENYA/Fav%203%202.jpeg"
                   alt="Immersion experience"
                   fill
                   className="object-cover"
@@ -131,7 +131,7 @@ export default function ImmersionPage() {
               </div>
               <div className="relative h-64 overflow-hidden mt-8">
                 <Image
-                  src="/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/Fav%203.jpeg"
+                  src="/images/general%20pics%20for%20the%20site%20use/RWANDA/Fav%203.jpeg"
                   alt="Rwanda city life"
                   fill
                   className="object-cover"
@@ -140,7 +140,7 @@ export default function ImmersionPage() {
               </div>
               <div className="relative h-64 overflow-hidden col-span-2">
                 <Image
-                  src="/Pictures/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg"
+                  src="/images/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg"
                   alt="Cape Town"
                   fill
                   className="object-cover"

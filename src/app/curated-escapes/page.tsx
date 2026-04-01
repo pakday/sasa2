@@ -16,7 +16,7 @@ const regularEscapes = [
     title: "15 Days in Morocco",
     subtitle: "Culture, History & City Life",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/MOROCCO/giuseppe-gurrieri-bcWFbTYge7I-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/MOROCCO/giuseppe-gurrieri-bcWFbTYge7I-unsplash.jpg",
     description:
       "Discover the best of Morocco on a 15-day journey through its iconic cities, desert landscapes, and rich traditions. Start in Casablanca, explore Rabat, the blue streets of Chefchaouen, and the historic medina of Fez. Head into the Sahara for a desert camp experience with camel rides and unforgettable night skies. Travel through Todra Gorges and Skoura, then finish in Marrakech, where souks, palaces, and gardens bring the city to life.",
     highlights: [
@@ -32,7 +32,7 @@ const regularEscapes = [
     region: "Southern Africa",
     title: "16-Day Southern Africa Journey",
     subtitle: "Victoria Falls, Botswana & Cape Town",
-    image: "/Pictures/Botswana/16167.jpg",
+    image: "/images/Botswana/16167.jpg",
     description:
       "Take in some of Southern Africa's most unforgettable places on this 16-day trip, from the power of Victoria Falls and the wildlife of Chobe and the Okavango Delta to the beauty of Cape Town. With thoughtfully chosen stays, expert guides, and a great balance of safari, scenery, and downtime, this journey brings together adventure, nature, and luxury in one seamless experience.",
     highlights: [
@@ -49,7 +49,7 @@ const regularEscapes = [
     title: "14-Day Honeymoon Escape",
     subtitle: "South Africa & Mozambique",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg",
     description:
       "Celebrate your honeymoon with a beautiful mix of safari, city, and beach. From game drives in Greater Kruger and the energy of Cape Town to the calm, turquoise waters of Mozambique, this trip blends romance, adventure, and barefoot luxury in all the right ways.",
     highlights: [
@@ -66,7 +66,7 @@ const regularEscapes = [
     title: "The Best of East Africa",
     subtitle: "Kenya, Rwanda & Tanzania",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/KENYA/lisa-stockton-6bnNiZYIv6c-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/KENYA/lisa-stockton-6bnNiZYIv6c-unsplash.jpg",
     description:
       "Experience the best of East Africa over 15 unforgettable days of wildlife, culture, and adventure. Begin in Nairobi, continue to Kigali and Rwanda's misty forests for a rare gorilla trekking experience, then head to Tanzania's iconic safari landscapes in search of the Big Five. Depending on the season, you may also witness the Great Migration in the Serengeti.",
     highlights: [
@@ -86,7 +86,7 @@ const signatureJourneys = [
     title: "An Extraordinary Safari Across Africa",
     subtitle: "Zimbabwe · Botswana · Kenya · Rwanda",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/Favorite%201%202.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/RWANDA/Favorite%201%202.jpeg",
     description:
       "This remarkable journey takes you through four of Africa's most iconic wildlife destinations — Zimbabwe, Botswana, Kenya, and Rwanda — over 12 unforgettable days, with the ease and exclusivity of the Emirates Executive Private Jet. Guided by trusted experts and shaped with deep local insight, this is a rare way to experience the continent in exceptional comfort, with each stop offering its own distinct beauty, rhythm, and perspective.",
     dates: [
@@ -109,7 +109,7 @@ const signatureJourneys = [
     title: "Journey to the Summit",
     subtitle: "Kilimanjaro via Machame Route",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/glen-michaelsen-uAb6GF4kPq0-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/TANZANIA/glen-michaelsen-uAb6GF4kPq0-unsplash.jpg",
     description:
       "Join Sasa Travel for a unique Kilimanjaro experience, guided by trusted experts on the ground in Tanzania. As the world's tallest free-standing mountain, Kilimanjaro is iconic, but it is also one of the more approachable high-altitude climbs. This journey is designed to take you to the summit at a steady, well-considered pace, following the stunning Machame Route and combining adventure with comfort every step of the way. Children aged 14 and above are welcome to join.",
     dates: [

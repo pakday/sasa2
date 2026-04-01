@@ -15,7 +15,7 @@ const destinations = [
     tagline: "Okavango Delta & Kalahari",
     description:
       "Untamed beauty, exceptional wildlife, and some of Africa's most exclusive safari experiences. From the waterways of the Okavango Delta to the vast stillness of the Kalahari, Botswana offers a rare sense of space, privacy, and quiet luxury.",
-    image: "/Pictures/Botswana/16167.jpg",
+    image: "/images/Botswana/16167.jpg",
     href: "/destinations/botswana",
     featured: true,
   },
@@ -26,7 +26,7 @@ const destinations = [
     description:
       "The birthplace of the safari. Kenya's iconic landscapes — from the sweeping Maasai Mara to the foothills of Kilimanjaro — offer extraordinary wildlife encounters and deep cultural connection with the Maasai people.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/KENYA/antelope-4121962_1280.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/KENYA/antelope-4121962_1280.jpg",
     href: "/destinations/kenya",
   },
   {
@@ -36,7 +36,7 @@ const destinations = [
     description:
       "One of the most compelling destinations on the continent. Trek through misty volcanic forests to encounter mountain gorillas in their natural habitat — an encounter that changes everything.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg",
     href: "/destinations/rwanda",
   },
   {
@@ -46,7 +46,7 @@ const destinations = [
     description:
       "Home to the Serengeti, the Great Migration, and Ngorongoro Crater — Tanzania is Africa at its most dramatic. Combined with the islands of Zanzibar, this destination offers an unmatched range of experiences.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg",
     href: "/destinations/tanzania",
   },
   {
@@ -56,7 +56,7 @@ const destinations = [
     description:
       "From the thundering power of Victoria Falls to the elephant-rich plains of Hwange, Zimbabwe is rich in natural wonder, history, and warm hospitality — deeply rewarding for those who discover it.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg",
     href: "/destinations/zimbabwe",
   },
   {
@@ -66,7 +66,7 @@ const destinations = [
     description:
       "An extraordinary diversity of experiences — world-class wildlife in Kruger, the cultural energy of Cape Town, and some of the world's most beautiful winelands. South Africa delivers it all with style.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg",
     href: "/destinations/south-africa",
   },
   {
@@ -76,7 +76,7 @@ const destinations = [
     description:
       "Where the ancient meets the contemporary. Morocco's imperial cities, saharan dunes, blue-painted medinas, and warm hospitality create a journey unlike any other on the continent.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/MOROCCO/giuseppe-gurrieri-bcWFbTYge7I-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/MOROCCO/giuseppe-gurrieri-bcWFbTYge7I-unsplash.jpg",
     href: "/destinations/morocco",
   },
   {
@@ -86,7 +86,7 @@ const destinations = [
     description:
       "The Pearl of Africa. Uganda's rainforests shelter half the world's mountain gorilla population. Combined with the Rwenzori Mountains and White Nile adventures, it's an experience of profound natural beauty.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/KENYA/lisa-stockton-6bnNiZYIv6c-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/KENYA/lisa-stockton-6bnNiZYIv6c-unsplash.jpg",
     href: "/destinations/uganda",
   },
   {
@@ -96,7 +96,7 @@ const destinations = [
     description:
       "An archipelago of powder-white beaches, turquoise waters, and centuries of Swahili culture. The perfect complement to an East African safari — barefoot luxury and timeless beauty.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/KENYA/fav%202.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/KENYA/fav%202.jpeg",
     href: "/destinations/zanzibar",
   },
   {
@@ -106,7 +106,7 @@ const destinations = [
     description:
       "Africa's walking safari capital. Zambia offers a more intimate and adventurous safari experience — from the iconic South Luangwa Valley to the Zambezi River and the Zambian side of Victoria Falls.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/agnese-galbusera-hc6aJsbfg60-unsplash.jpg",
+      "/images/general%20pics%20for%20the%20site%20use/TANZANIA/agnese-galbusera-hc6aJsbfg60-unsplash.jpg",
     href: "/destinations/zambia",
   },
   {
@@ -116,7 +116,7 @@ const destinations = [
     description:
       "Pristine beaches, warm turquoise waters, and the extraordinary Bazaruto Archipelago. Mozambique is a rare and beautiful blend of Portuguese colonial heritage, African soul, and island paradise.",
     image:
-      "/Pictures/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/AdobeStock_686054056%202.jpeg",
+      "/images/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/AdobeStock_686054056%202.jpeg",
     href: "/destinations/mozambique",
   },
 ];

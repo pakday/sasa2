@@ -65,7 +65,7 @@ export default function OurImpactPage() {
       {/* ── Full-width image break ────────────────────────────────────── */}
       <div className="relative h-72 md:h-96 overflow-hidden">
         <Image
-          src="/Pictures/general%20pics%20for%20the%20site%20use/TANZANIA/AdobeStock_51767739.jpeg"
+          src="/images/general%20pics%20for%20the%20site%20use/TANZANIA/AdobeStock_51767739.jpeg"
           alt="African landscape — wildlife and community"
           fill
           className="object-cover object-center"
@@ -106,7 +106,7 @@ export default function OurImpactPage() {
             </div>
             <div className="relative h-[460px] overflow-hidden">
               <Image
-                src="/Pictures/general%20pics%20for%20the%20site%20use/KENYA/Fav%203%202.jpeg"
+                src="/images/general%20pics%20for%20the%20site%20use/KENYA/Fav%203%202.jpeg"
                 alt="Local community connection"
                 fill
                 className="object-cover"
@@ -151,7 +151,7 @@ export default function OurImpactPage() {
             </div>
             <div className="relative h-[460px] overflow-hidden lg:order-1">
               <Image
-                src="/Pictures/general%20pics%20for%20the%20site%20use/RWANDA/timothy-k-8eaxug2els0-unsplash.jpg"
+                src="/images/general%20pics%20for%20the%20site%20use/RWANDA/timothy-k-8eaxug2els0-unsplash.jpg"
                 alt="Youth business support"
                 fill
                 className="object-cover"
