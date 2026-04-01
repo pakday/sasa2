@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Typography */
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-cormorant);
+
+  /* Brand Colors — #EBE8D8 cream · #2E0E02 dark brown · #1D1D1D near-black */
+  --color-sasa-brown: #2e0e02;
+  --color-sasa-sec-brown: #572e1f;
+  --color-sasa-red: #790000;
+  --color-sasa-sec-red: #b32f2f;
+  --color-sasa-black: #1d1d1d;
+  --color-sasa-white: #ebe8d8;
+  --color-sasa-green: #2d7a52;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-sasa-white);
+  color: var(--color-sasa-black);
+  font-family: var(--font-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Global Button Utilities ────────────────────────────────────────── */
+
+.btn-primary {
+  display: inline-block;
+  background-color: var(--color-sasa-brown);
+  color: var(--color-sasa-white);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.875rem 2.5rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background-color: var(--color-sasa-sec-brown);
+}
+
+.btn-secondary {
+  display: inline-block;
+  border: 1px solid var(--color-sasa-brown);
+  background: transparent;
+  color: var(--color-sasa-brown);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.875rem 2.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-secondary:hover {
+  background-color: var(--color-sasa-brown);
+  color: var(--color-sasa-white);
+}
+
+.btn-light {
+  display: inline-block;
+  border: 1px solid var(--color-sasa-white);
+  background: transparent;
+  color: var(--color-sasa-white);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.875rem 2.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-light:hover {
+  background-color: var(--color-sasa-white);
+  color: var(--color-sasa-brown);
+}
+
+.btn-lg {
+  padding: 1.125rem 3.5rem;
+  font-size: 0.75rem;
+}
+.btn-sm {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.65rem;
+}
+
+.btn-green {
+  display: inline-block;
+  background-color: var(--color-sasa-green);
+  color: #ffffff;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0.875rem 2.5rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+.btn-green:hover {
+  background-color: #1f5c3a;
+}
