@@ -144,7 +144,7 @@ export default function DestinationsPage() {
           <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-5">
             Explore Africa
           </p>
-          <h1 className="font-serif font-bold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
             Destinations
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
@@ -166,69 +166,22 @@ export default function DestinationsPage() {
         </div>
       </section>
 
-      {/* ── Featured Destination ──────────────────────────────────────── */}
-      {featured && (
-        <section className="bg-white py-16 md:py-20">
-          <div className="max-w-7xl mx-auto px-6 lg:px-12">
-            <p className="text-sasa-sec-brown text-sm tracking-[0.3em] uppercase mb-4">
-              Featured Destination
-            </p>
-            <Link
-              href={featured.href}
-              className="group grid grid-cols-1 lg:grid-cols-2 gap-0 overflow-hidden"
-            >
-              <div className="relative h-80 lg:h-[560px] overflow-hidden">
-                <Image
-                  src={featured.image}
-                  alt={featured.name}
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  priority
-                />
-              </div>
-              <div className="bg-sasa-brown p-10 md:p-14 flex flex-col justify-center">
-                <p className="text-sasa-white/50 text-xs tracking-[0.3em] uppercase mb-4">
-                  {featured.region}
-                </p>
-                <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-white mb-3 leading-snug">
-                  {featured.name}
-                </h2>
-                <p className="text-sasa-white/55 text-sm tracking-[0.15em] uppercase mb-7">
-                  {featured.tagline}
-                </p>
-                <p className="text-sasa-white/70 text-base leading-relaxed mb-10">
-                  {featured.description}
-                </p>
-                <span className="btn-light self-start">
-                  Explore {featured.name}
-                </span>
-              </div>
-            </Link>
-          </div>
-        </section>
-      )}
-
       {/* ── All Destinations ──────────────────────────────────────────── */}
       <section className="bg-sasa-white py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <h2 className="font-serif font-bold text-3xl md:text-4xl text-sasa-brown mb-12">
+          <h2 className="font-serif font-semibold text-3xl md:text-4xl text-sasa-brown mb-12">
             All Destinations
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {rest.map((dest) => (
-              <Link
-                key={dest.name}
-                href={dest.href}
-                className="group flex flex-col"
-              >
+              <div key={dest.name} className="flex flex-col">
                 <div className="relative h-64 overflow-hidden mb-5">
                   <Image
                     src={dest.image}
                     alt={dest.name}
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/55 via-transparent to-transparent" />
@@ -238,7 +191,7 @@ export default function DestinationsPage() {
                     </span>
                   </div>
                 </div>
-                <h3 className="font-serif font-bold text-2xl text-sasa-brown mb-1.5">
+                <h3 className="font-serif font-semibold text-2xl text-sasa-brown mb-1.5">
                   {dest.name}
                 </h3>
                 <p className="text-sasa-sec-brown text-xs tracking-[0.15em] uppercase mb-4">
@@ -247,10 +200,13 @@ export default function DestinationsPage() {
                 <p className="text-sasa-black/80 text-sm leading-relaxed flex-1 mb-5">
                   {dest.description}
                 </p>
-                <span className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-[0.15em] uppercase font-medium group-hover:opacity-60 transition-opacity">
-                  Explore
+                <Link
+                  href="/start-your-trip"
+                  className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-[0.15em] uppercase font-medium hover:opacity-60 transition-opacity"
+                >
+                  Enquire Now
                   <svg
-                    className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1"
+                    className="w-3.5 h-3.5 transition-transform duration-300 hover:translate-x-1"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -262,8 +218,8 @@ export default function DestinationsPage() {
                       d="M17 8l4 4m0 0l-4 4m4-4H3"
                     />
                   </svg>
-                </span>
-              </Link>
+                </Link>
+              </div>
             ))}
           </div>
         </div>
@@ -275,7 +231,7 @@ export default function DestinationsPage() {
           <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
             Ready to Begin?
           </p>
-          <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-white mb-7 leading-snug">
+          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-7 leading-snug">
             Not Sure Where to Start?
           </h2>
           <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">

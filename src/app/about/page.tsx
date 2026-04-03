@@ -52,7 +52,7 @@ export default function AboutPage() {
           <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
             Our Story
           </p>
-          <h1 className="font-serif font-bold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
             About Us
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
@@ -84,7 +84,7 @@ export default function AboutPage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
                 Who We Are
               </p>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
+              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
                 Sharing Africa as Those Who Know It Best
               </h2>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
@@ -151,47 +151,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ── Founder Quote ─────────────────────────────────────────────── */}
-      <section className="bg-sasa-brown py-20 md:py-28">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-20 items-center">
-            <div className="lg:col-span-1">
-              <div className="relative h-80 lg:h-[460px] overflow-hidden">
-                <Image
-                  src="/images/general%20pics%20for%20the%20site%20use/harshil-gudka-pU-9BYqjhyo-unsplash%20(1).jpg"
-                  alt="Emmanuel Kwizera, Founder"
-                  fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 1024px) 100vw, 33vw"
-                />
-              </div>
-            </div>
-            <div className="lg:col-span-2">
-              <svg
-                className="w-8 h-6 text-sasa-white/20 mb-8"
-                viewBox="0 0 32 24"
-                fill="currentColor"
-              >
-                <path d="M0 24V13.7C0 5.7 4 1.1 12 0l1.3 2C9 3 6.8 5.1 5.8 8.3H12V24H0zm17.3 0V13.7c0-8 4-12.6 12-13.7l1.3 2c-4.3 1-6.5 3.1-7.5 6.3H30V24H17.3z" />
-              </svg>
-              <p className="font-serif text-3xl md:text-4xl lg:text-[2.4rem] text-sasa-white italic leading-[1.45] mb-10">
-                When you come from Africa, you never stop wanting to share it.
-                It can be a complex place, but it is also full of warmth,
-                creativity, passion, and extraordinary beauty.
-              </p>
-              <div className="border-t border-sasa-white/15 pt-7">
-                <p className="font-serif text-2xl text-sasa-white mb-1">
-                  Emmanuel Kwizera
-                </p>
-                <p className="text-sasa-white/45 text-xs tracking-[0.2em] uppercase">
-                  Founder &amp; CEO, Sasa Travel
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ── The Sasa Travel Difference ────────────────────────────────── */}
       <section className="bg-sasa-white py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -199,7 +158,7 @@ export default function AboutPage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               What Sets Us Apart
             </p>
-            <h2 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+            <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
               The Sasa Travel Difference
             </h2>
           </div>
@@ -211,7 +170,7 @@ export default function AboutPage() {
                   {point.number}
                 </span>
                 <div>
-                  <h3 className="font-serif font-bold text-2xl text-sasa-brown mb-3">
+                  <h3 className="font-serif font-semibold text-2xl text-sasa-brown mb-3">
                     {point.title}
                   </h3>
                   <p className="text-sasa-black/65 text-base leading-relaxed">
@@ -220,6 +179,67 @@ export default function AboutPage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── CTA ───────────────────────────────────────────────────────── */}
+      <section className="bg-sasa-brown py-20 md:py-28">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
+            Begin Your Journey
+          </p>
+          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
+            It Would Be a Privilege to Share Africa With You
+          </h2>
+          <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">
+            Whatever you&apos;re looking for — an extraordinary safari, a
+            cultural immersion, a multi-country adventure — we&apos;re here to
+            help shape it into something deeply personal and truly memorable.
+          </p>
+          <Link href="/start-your-trip" className="btn-light btn-lg">
+            Start Your Trip
+          </Link>
+        </div>
+      </section>
+
+      {/* ── Founder Quote ─────────────────────────────────────────────── */}
+      <section className="bg-sasa-white py-20 md:py-28">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-20 items-center">
+            <div className="lg:col-span-1">
+              <div className="relative h-80 lg:h-[460px] overflow-hidden">
+                <Image
+                  src="/images/general%20pics%20for%20the%20site%20use/harshil-gudka-pU-9BYqjhyo-unsplash.jpg"
+                  alt="Emmanuel Kwizera, Founder"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 1024px) 100vw, 33vw"
+                />
+              </div>
+            </div>
+            <div className="lg:col-span-2">
+              <svg
+                className="w-8 h-6 text-sasa-brown/20 mb-8"
+                viewBox="0 0 32 24"
+                fill="currentColor"
+              >
+                <path d="M0 24V13.7C0 5.7 4 1.1 12 0l1.3 2C9 3 6.8 5.1 5.8 8.3H12V24H0zm17.3 0V13.7c0-8 4-12.6 12-13.7l1.3 2c-4.3 1-6.5 3.1-7.5 6.3H30V24H17.3z" />
+              </svg>
+              <p className="font-serif text-3xl md:text-4xl lg:text-[2.4rem] text-sasa-brown italic leading-[1.45] mb-10">
+                When you come from Africa, you never stop wanting to share it.
+                It can be a complex place, but it is also full of warmth,
+                creativity, passion, and extraordinary beauty.
+              </p>
+              <div className="border-t border-sasa-brown/15 pt-7">
+                <p className="font-serif text-2xl text-sasa-brown mb-1">
+                  Emmanuel Kwizera
+                </p>
+                <p className="text-sasa-brown/45 text-xs tracking-[0.2em] uppercase">
+                  Founder &amp; CEO, Sasa Travel
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -241,7 +261,7 @@ export default function AboutPage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
                 The Team
               </p>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
+              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
                 Led by African Insight, Shaped by Trust
               </h2>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
@@ -270,26 +290,6 @@ export default function AboutPage() {
               </Link>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* ── CTA ───────────────────────────────────────────────────────── */}
-      <section className="bg-sasa-brown py-20 md:py-28">
-        <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
-            Begin Your Journey
-          </p>
-          <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
-            It Would Be a Privilege to Share Africa With You
-          </h2>
-          <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">
-            Whatever you&apos;re looking for — an extraordinary safari, a
-            cultural immersion, a multi-country adventure — we&apos;re here to
-            help shape it into something deeply personal and truly memorable.
-          </p>
-          <Link href="/start-your-trip" className="btn-light btn-lg">
-            Start Your Trip
-          </Link>
         </div>
       </section>
     </>

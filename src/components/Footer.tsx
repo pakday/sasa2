@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const footerNav = [
   { name: "Destinations", href: "/destinations" },
@@ -7,29 +8,31 @@ const footerNav = [
   { name: "Immersion", href: "/immersion" },
   { name: "About Us", href: "/about" },
   { name: "Our Impact", href: "/our-impact" },
+  { name: "Journal", href: "/journal" },
   { name: "Start Your Trip", href: "/start-your-trip" },
 ];
 
 const destinations = [
-  { name: "Botswana", href: "/destinations/botswana" },
-  { name: "Kenya", href: "/destinations/kenya" },
-  { name: "Rwanda", href: "/destinations/rwanda" },
-  { name: "Tanzania", href: "/destinations/tanzania" },
-  { name: "Zimbabwe", href: "/destinations/zimbabwe" },
-  { name: "South Africa", href: "/destinations/south-africa" },
-  { name: "Uganda", href: "/destinations/uganda" },
-  { name: "Zambia", href: "/destinations/zambia" },
-  { name: "Mozambique", href: "/destinations/mozambique" },
-  { name: "Zanzibar", href: "/destinations/zanzibar" },
+  "Botswana",
+  "Kenya",
+  "Rwanda",
+  "Tanzania",
+  "Zimbabwe",
+  "South Africa",
+  "Uganda",
+  "Zambia",
+  "Mozambique",
+  "Zanzibar",
+  "Morocco",
 ];
 
 export default function Footer() {
   return (
     <footer className="bg-sasa-white text-sasa-brown border-t border-sasa-black/10">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-16 lg:pt-20 pb-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
           {/* Brand */}
-          <div className="lg:col-span-1">
+          <div>
             <Image
               src="/logo/sasa-travel-logo.png"
               alt="Sasa Travel"
@@ -37,7 +40,7 @@ export default function Footer() {
               height={50}
               className="h-10 w-auto mb-6"
             />
-            <p className="text-sasa-black/50 text-sm leading-relaxed max-w-xs">
+            <p className="text-sasa-black/70 text-sm leading-relaxed max-w-xs">
               Experience Africa through the eyes of locals — personal journeys
               shaped by real connection, rich culture, and unforgettable
               wildlife.
@@ -46,7 +49,7 @@ export default function Footer() {
 
           {/* Explore */}
           <div>
-            <h4 className="text-sasa-black/60 text-xs tracking-[0.2em] uppercase mb-5 font-medium">
+            <h4 className="text-sasa-black/70 text-xs tracking-[0.2em] uppercase mb-5 font-medium">
               Explore
             </h4>
             <ul className="space-y-3">
@@ -63,39 +66,45 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Destinations */}
-          <div>
-            <h4 className="text-sasa-black/60 text-xs tracking-[0.2em] uppercase mb-5 font-medium">
-              Destinations
-            </h4>
-            <ul className="space-y-3">
-              {destinations.map((dest) => (
-                <li key={dest.name}>
-                  <Link
-                    href={dest.href}
-                    className="text-sasa-brown text-sm hover:text-sasa-brown/70 transition-colors duration-300"
-                  >
-                    {dest.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* Contact */}
           <div>
-            <h4 className="text-sasa-black/60 text-xs tracking-[0.2em] uppercase mb-5 font-medium">
+            <h4 className="text-sasa-black/70 text-xs tracking-[0.2em] uppercase mb-5 font-medium">
               Find Us
             </h4>
-            <address className="not-italic text-sasa-black/60 text-sm leading-relaxed space-y-1">
-              <p>8424 Santa Monica Blvd</p>
-              <p>Los Angeles, CA 90069</p>
-              <p>United States</p>
+            <address className="not-italic text-sasa-brown text-sm leading-relaxed space-y-3">
+              <div className="flex items-start gap-3">
+                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <a
+                  href="mailto:hello@sasatravel.co"
+                  className="hover:text-sasa-brown/70 transition-colors"
+                >
+                  hello@sasatravel.co
+                </a>
+              </div>
+              <div className="flex items-start gap-3">
+                <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <a
+                  href="tel:+13105550800"
+                  className="hover:text-sasa-brown/70 transition-colors"
+                >
+                  +1 (310) 555-0800
+                </a>
+              </div>
+              <div className="flex items-start gap-3">
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <p>
+                  8424 Santa Monica Blvd
+                  <br />
+                  Los Angeles, CA 90069
+                  <br />
+                  United States
+                </p>
+              </div>
             </address>
             <div className="mt-8">
               <Link
                 href="/start-your-trip"
-                className="inline-block btn-secondary mt-8"
+                className="inline-block btn-secondary"
               >
                 Begin Conversation
               </Link>

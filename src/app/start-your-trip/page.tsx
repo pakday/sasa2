@@ -12,8 +12,9 @@ export default function StartYourTripPage() {
   return (
     <>
       {/* ── Page Header ───────────────────────────────────────────────── */}
-      <section className="relative py-28 md:py-36 overflow-hidden bg-sasa-brown">
-        <div className="absolute inset-0 opacity-20">
+      <section className="relative py-28 md:py-36 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-sasa-brown/90 via-sasa-brown/70 to-sasa-brown/80" />
+        <div className="absolute inset-0 opacity-15">
           <Image
             src="/images/Botswana/8776.jpg"
             alt=""
@@ -22,13 +23,13 @@ export default function StartYourTripPage() {
             sizes="100vw"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-sasa-brown/50 to-sasa-brown/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-sasa-brown/40 to-sasa-brown/90" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
             Begin Conversation
           </p>
-          <h1 className="font-serif font-bold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-6">
+          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-6">
             Start Your Trip
           </h1>
           <p className="text-sasa-white/70 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
@@ -47,7 +48,7 @@ export default function StartYourTripPage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-5">
                 How It Works
               </p>
-              <h2 className="font-serif font-bold text-3xl text-sasa-brown mb-7 leading-snug">
+              <h2 className="font-serif font-semibold text-3xl text-sasa-brown mb-7 leading-snug">
                 From Your First Message to Your First Footstep
               </h2>
               <div className="space-y-8 mb-12">
@@ -131,7 +132,7 @@ export default function StartYourTripPage() {
             </div>
 
             {/* Right — form */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-3" id="form">
               <ContactForm showTimeline={true} />
             </div>
           </div>
@@ -160,7 +161,7 @@ export default function StartYourTripPage() {
                 key={item.title}
                 className="md:px-10 first:md:pl-0 last:md:pr-0 text-center md:text-left"
               >
-                <h3 className="font-serif font-bold text-xl text-sasa-white mb-3">
+                <h3 className="font-serif font-semibold text-xl text-sasa-white mb-3">
                   {item.title}
                 </h3>
                 <p className="text-sasa-white/60 text-sm leading-relaxed">

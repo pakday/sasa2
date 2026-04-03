@@ -7,43 +7,99 @@ const destinations = [
   {
     name: "Botswana",
     sub: "Okavango Delta & Kalahari",
+    description:
+      "Experience pristine wilderness in one of Africa's most unspoiled destinations. The Okavango Delta offers exceptional wildlife viewing, while the Kalahari reveals the beauty of vast open landscapes and indigenous cultures.",
     image: "/images/Botswana/16167.jpg",
-    href: "/destinations/botswana",
+    href: "/start-your-trip",
   },
   {
     name: "Kenya",
     sub: "Maasai Mara & Amboseli",
+    description:
+      "Witness the legendary annual wildebeest migration and encounter the iconic Big Five. From the sweeping plains of Maasai Mara to the snow-capped peaks of Kilimanjaro beyond the Amboseli plains.",
     image:
       "/images/general%20pics%20for%20the%20site%20use/KENYA/antelope-4121962_1280.jpg",
-    href: "/destinations/kenya",
+    href: "/start-your-trip",
   },
   {
     name: "Rwanda",
     sub: "Gorilla Trekking & Akagera",
+    description:
+      "Trek through misty mountains to encounter endangered mountain gorillas in their natural habitat. Combine intimate wildlife encounters with Akagera's diverse ecosystems and Rwanda's remarkable recovery story.",
     image:
       "/images/general%20pics%20for%20the%20site%20use/RWANDA/AdobeStock_214680490.jpeg",
-    href: "/destinations/rwanda",
+    href: "/start-your-trip",
   },
   {
     name: "Tanzania",
     sub: "Serengeti & Ngorongoro",
+    description:
+      "Discover the world's greatest wildlife spectacle across the Serengeti's endless plains and the Ngorongoro Crater. Summit the iconic Kilimanjaro and immerse yourself in Tanzanian cultures and traditions.",
     image:
       "/images/general%20pics%20for%20the%20site%20use/TANZANIA/Favorite%201.jpeg",
-    href: "/destinations/tanzania",
+    href: "/start-your-trip",
   },
   {
     name: "Zimbabwe",
     sub: "Victoria Falls & Hwange",
+    description:
+      "Marvel at the thundering power of Victoria Falls, one of the world's most spectacular natural wonders. Explore the diverse wildlife and vast landscapes of Hwange National Park.",
     image:
       "/images/general%20pics%20for%20the%20site%20use/AdobeStock_332073818.jpeg",
-    href: "/destinations/zimbabwe",
+    href: "/start-your-trip",
   },
   {
     name: "South Africa",
     sub: "Kruger & Cape Winelands",
+    description:
+      "Experience the legendary Kruger National Park's incredible biodiversity and a world-class safari. Journey to the Cape Winelands and discover cosmopolitan Cape Town's stunning natural beauty.",
     image:
       "/images/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/marina-zvada-wkHsJN_AWXc-unsplash.jpg",
-    href: "/destinations/south-africa",
+    href: "/start-your-trip",
+  },
+  {
+    name: "Morocco",
+    sub: "Culture, History & Sahara",
+    description:
+      "Journey through ancient medinas, traverse the golden Sahara on camelback, and experience Morocco's rich blend of Berber culture, Islamic history, and North African traditions.",
+    image:
+      "/images/general%20pics%20for%20the%20site%20use/MOROCCO/giuseppe-gurrieri-bcWFbTYge7I-unsplash.jpg",
+    href: "/start-your-trip",
+  },
+  {
+    name: "Uganda",
+    sub: "Gorilla Trekking & Bwindi",
+    description:
+      "Venture into the verdant rainforests of Bwindi to encounter critically endangered mountain gorillas. Explore Uganda's remarkable primate populations and pristine natural landscapes.",
+    image:
+      "/images/general%20pics%20for%20the%20site%20use/KENYA/lisa-stockton-6bnNiZYIv6c-unsplash.jpg",
+    href: "/start-your-trip",
+  },
+  {
+    name: "Zanzibar",
+    sub: "Beaches & Spice Islands",
+    description:
+      "Relax on perfect white-sand beaches, explore historic Stone Town's winding spiced-air streets, and discover the archipelago's cultural heritage shaped by centuries of trade routes.",
+    image: "/images/general%20pics%20for%20the%20site%20use/KENYA/fav%202.jpeg",
+    href: "/start-your-trip",
+  },
+  {
+    name: "Zambia",
+    sub: "Victoria Falls & South Luangwa",
+    description:
+      "Experience one of Africa's most thrilling destinations, where Victoria Falls' raw power meets the intimate wildlife encounters of South Luangwa National Park.",
+    image:
+      "/images/general%20pics%20for%20the%20site%20use/TANZANIA/agnese-galbusera-hc6aJsbfg60-unsplash.jpg",
+    href: "/start-your-trip",
+  },
+  {
+    name: "Mozambique",
+    sub: "Indian Ocean & Bazaruto",
+    description:
+      "Discover pristine beaches and the untouched beauty of the Bazaruto Archipelago. Mozambique offers world-class diving, exceptional marine life, and authentic coastal charm.",
+    image:
+      "/images/general%20pics%20for%20the%20site%20use/SOUTH%20AFRICA/AdobeStock_686054056%202.jpeg",
+    href: "/start-your-trip",
   },
 ];
 
@@ -160,7 +216,7 @@ export default function HomePage() {
           <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-8">
             Sasa Travel
           </p>
-          <h1 className="font-serif font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-sasa-white leading-[1.05] mb-8 tracking-tight">
+          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-sasa-white leading-[1.05] mb-8 tracking-tight">
             Experience Africa <br className="hidden md:block" />
             Through the Eyes of Locals
           </h1>
@@ -202,12 +258,9 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="w-12 h-px bg-sasa-brown/30 mx-auto mb-10" />
           <p className="font-serif text-3xl md:text-4xl lg:text-[2.6rem] text-sasa-brown leading-[1.4] italic mb-10">
-            &ldquo;The most meaningful journeys are rooted in place. We design
-            private experiences across Africa with local insight, care, and an
-            intimate understanding of the continent.&rdquo;
-          </p>
-          <p className="text-sasa-black/55 text-sm tracking-[0.2em] uppercase">
-            Sasa Travel
+            The most meaningful journeys are rooted in place. We design private
+            experiences across Africa with local insight, care, and an intimate
+            understanding of the continent.
           </p>
           <div className="w-12 h-px bg-sasa-brown/30 mx-auto mt-10" />
         </div>
@@ -230,7 +283,7 @@ export default function HomePage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
                 What We Create
               </p>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-brown leading-tight mb-8">
+              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown leading-tight mb-8">
                 Journeys That Connect You <br className="hidden lg:block" />
                 to the True Africa
               </h2>
@@ -261,41 +314,90 @@ export default function HomePage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               Where We Travel
             </p>
-            <h2 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+            <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
               Destinations
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-            {destinations.map((dest) => (
-              <Link
-                key={dest.name}
-                href={dest.href}
-                className="group relative overflow-hidden"
-              >
-                <div className="relative h-64 md:h-80">
-                  <Image
-                    src={dest.image}
-                    alt={dest.name}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 768px) 50vw, 33vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/70 via-transparent to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-5">
-                    <h3 className="font-serif font-bold text-2xl text-sasa-white leading-tight">
-                      {dest.name}
-                    </h3>
-                    <p className="text-sasa-white/65 text-xs tracking-wide mt-1">
-                      {dest.sub}
-                    </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {destinations.map((dest) => {
+              const regionTag =
+                dest.name === "Botswana"
+                  ? "SOUTHERN AFRICA"
+                  : dest.name === "Kenya"
+                    ? "EAST AFRICA"
+                    : dest.name === "Rwanda"
+                      ? "EAST AFRICA"
+                      : dest.name === "Tanzania"
+                        ? "EAST AFRICA"
+                        : dest.name === "Zimbabwe"
+                          ? "SOUTHERN AFRICA"
+                          : dest.name === "South Africa"
+                            ? "SOUTHERN AFRICA"
+                            : dest.name === "Morocco"
+                              ? "NORTH AFRICA"
+                              : dest.name === "Uganda"
+                                ? "EAST AFRICA"
+                                : dest.name === "Zanzibar"
+                                  ? "EAST AFRICA"
+                                  : dest.name === "Zambia"
+                                    ? "SOUTHERN AFRICA"
+                                    : dest.name === "Mozambique"
+                                      ? "SOUTHERN AFRICA"
+                                      : "AFRICA";
+
+              return (
+                <div key={dest.name} className="flex flex-col group">
+                  <div className="relative h-64 overflow-hidden mb-5">
+                    <Image
+                      src={dest.image}
+                      alt={dest.name}
+                      fill
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/50 via-transparent to-transparent" />
+                    <div className="absolute top-4 left-4">
+                      <span className="bg-sasa-white/90 text-sasa-brown text-xs tracking-[0.12em] uppercase px-3 py-1.5 font-medium">
+                        {regionTag}
+                      </span>
+                    </div>
                   </div>
+                  <h3 className="font-serif font-semibold text-2xl text-sasa-brown mb-2">
+                    {dest.name}
+                  </h3>
+                  <p className="text-sasa-sec-brown text-xs tracking-[0.15em] uppercase mb-3">
+                    {dest.sub}
+                  </p>
+                  <p className="text-sasa-black/70 text-sm leading-relaxed mb-5 flex-1">
+                    {destinations.find((d) => d.name === dest.name)
+                      ?.description || ""}
+                  </p>
+                  <Link
+                    href={dest.href}
+                    className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-[0.15em] uppercase font-medium hover:opacity-60 transition-opacity mt-auto"
+                  >
+                    Inquire Now
+                    <svg
+                      className="w-3.5 h-3.5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      />
+                    </svg>
+                  </Link>
                 </div>
-              </Link>
-            ))}
+              );
+            })}
           </div>
 
-          <div className="text-center mt-12">
+          <div className="text-center mt-14">
             <Link href="/destinations" className="btn-secondary">
               View All Destinations
             </Link>
@@ -322,7 +424,7 @@ export default function HomePage() {
               <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-8">
                 Founder&apos;s Message
               </p>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
+              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
                 Africa Has Always Remained the Place That Grounds Me Most
               </h2>
               <p className="text-sasa-white/70 text-base leading-relaxed mb-5">
@@ -368,7 +470,7 @@ export default function HomePage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
                 Special Journeys
               </p>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+              <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
                 Curated Escapes
               </h2>
             </div>
@@ -401,7 +503,7 @@ export default function HomePage() {
                 <p className="text-sasa-sec-brown text-xs tracking-[0.2em] uppercase mb-2">
                   {trip.region}
                 </p>
-                <h3 className="font-serif font-bold text-2xl md:text-3xl text-sasa-brown mb-4 leading-snug">
+                <h3 className="font-serif font-semibold text-2xl md:text-3xl text-sasa-brown mb-4 leading-snug">
                   {trip.title}
                 </h3>
                 <p className="text-sasa-black/80 text-sm leading-relaxed mb-6 flex-1">
@@ -445,7 +547,7 @@ export default function HomePage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               What Travelers Say
             </p>
-            <h2 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+            <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
               Stories from the Field
             </h2>
           </div>
@@ -498,7 +600,7 @@ export default function HomePage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
                 Our Impact
               </p>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-brown mb-6 leading-tight">
+              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-6 leading-tight">
                 Travel That Gives Back
               </h2>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
@@ -528,7 +630,7 @@ export default function HomePage() {
               <p className="text-sasa-black/45 text-xs tracking-[0.3em] uppercase mb-4">
                 From the Journal
               </p>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+              <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
                 Stories &amp; Insights
               </h2>
             </div>
@@ -580,7 +682,7 @@ export default function HomePage() {
           <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-6">
             Ready to Explore?
           </p>
-          <h2 className="font-serif font-bold text-4xl md:text-5xl lg:text-6xl text-sasa-white mb-8 leading-snug">
+          <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-white mb-8 leading-snug">
             Your Africa Journey <br className="hidden md:block" />
             Begins Here
           </h2>

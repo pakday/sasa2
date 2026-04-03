@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Immersion Program — Sasa Travel",
+  title: "Immersion Experience — Sasa Travel",
   description:
-    "A three-month professional immersion experience for university students in Africa. Work alongside local teams in Casablanca, Kigali, and Cape Town.",
+    "A three-month professional immersion experience in Africa. Work alongside local teams in Casablanca, Kigali, and Cape Town.",
 };
 
 const locations = [
@@ -75,13 +74,13 @@ export default function ImmersionPage() {
           <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
             Professional Experience
           </p>
-          <h1 className="font-serif font-bold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
             Immersion
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-2xl leading-relaxed">
-            A thoughtfully designed three-month experience for university
-            students — building real skills, global perspective, and meaningful
-            connections across Africa.
+            A thoughtfully designed three-month experience open to anyone ready
+            to build real skills, global perspective, and meaningful connections
+            across Africa.
           </p>
         </div>
       </section>
@@ -92,17 +91,17 @@ export default function ImmersionPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 items-center">
             <div>
               <p className="text-sasa-sec-brown text-sm tracking-[0.3em] uppercase mb-6">
-                About the Program
+                About Immersion
               </p>
-              <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
+              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
                 Work. Learn. Connect. Across Africa.
               </h2>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
-                Our Immersion program is a thoughtfully designed three-month
-                experience for university students looking to gain hands-on
-                professional experience in Africa. Working alongside our local
-                teams, students support small businesses in areas aligned with
-                their field of study.
+                Our Immersion experience is a thoughtfully designed three-month
+                opportunity for anyone looking to gain hands-on professional
+                experience in Africa. Working alongside our local teams,
+                volunteers support businesses in areas aligned with their field
+                of interest.
               </p>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
                 You&apos;ll build practical skills, develop genuine global
@@ -110,13 +109,13 @@ export default function ImmersionPage() {
                 goes far beyond the classroom.
               </p>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-10">
-                The program currently runs in three cities across Africa, each
-                offering a distinct culture, business environment, and
+                This experience currently runs in three cities across Africa,
+                each offering a distinct culture, business environment, and
                 opportunity to learn through real work while engaging directly
                 with dynamic local communities.
               </p>
               <a href="#apply" className="btn-primary">
-                Apply to the Program
+                Enquire Now
               </a>
             </div>
             <div className="grid grid-cols-2 gap-4">
@@ -159,7 +158,7 @@ export default function ImmersionPage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               The Experience
             </p>
-            <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-brown">
+            <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown">
               What You&apos;ll Gain
             </h2>
           </div>
@@ -184,7 +183,7 @@ export default function ImmersionPage() {
               {
                 number: "04",
                 title: "Personal Growth",
-                body: "Living and working in a new culture challenges and changes you. Students return with a deeper understanding of themselves and the world.",
+                body: "Living and working in a new culture challenges and changes you. You'll return with a deeper understanding of yourself and the world.",
               },
             ].map((item) => (
               <div
@@ -194,7 +193,7 @@ export default function ImmersionPage() {
                 <p className="font-serif text-5xl text-sasa-brown/30 mb-4 leading-none">
                   {item.number}
                 </p>
-                <h3 className="font-serif font-bold text-xl text-sasa-brown mb-3">
+                <h3 className="font-serif font-semibold text-xl text-sasa-brown mb-3">
                   {item.title}
                 </h3>
                 <p className="text-sasa-black/80 text-sm leading-relaxed">
@@ -211,10 +210,10 @@ export default function ImmersionPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="mb-14">
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
-              Program Cities
+              Immersion Cities
             </p>
-            <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-brown">
-              Where We Operate
+            <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown">
+              Where We Currently Operate
             </h2>
           </div>
 
@@ -241,7 +240,7 @@ export default function ImmersionPage() {
                   <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-3">
                     {loc.country}
                   </p>
-                  <h3 className="font-serif font-bold text-3xl text-sasa-brown mb-5">
+                  <h3 className="font-serif font-semibold text-3xl text-sasa-brown mb-5">
                     {loc.city}
                   </h3>
                   <p className="text-sasa-black/65 text-sm leading-relaxed mb-7">
@@ -264,31 +263,23 @@ export default function ImmersionPage() {
         </div>
       </section>
 
-      {/* ── Application Form ──────────────────────────────────────────── */}
-      <section id="apply" className="bg-gray-50 py-20 md:py-28">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-14 lg:gap-20">
-            <div className="lg:col-span-2">
-              <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-5">
-                Get Involved
-              </p>
-              <h2 className="font-serif font-bold text-3xl md:text-4xl text-sasa-brown mb-6 leading-snug">
-                Inquire to Learn More
-              </h2>
-              <p className="text-sasa-black/80 text-base leading-relaxed mb-6">
-                Whether you&apos;re a student looking to apply, a university
-                program seeking partnerships, or an organization interested in
-                hosting an immersion student — we&apos;d love to hear from you.
-              </p>
-              <p className="text-sasa-black/45 text-sm leading-relaxed">
-                Share your details and we&apos;ll be in touch with more
-                information about the program, eligibility, and next steps.
-              </p>
-            </div>
-            <div className="lg:col-span-3">
-              <ContactForm />
-            </div>
-          </div>
+      {/* ── CTA ───────────────────────────────────────────────────────── */}
+      <section className="bg-sasa-brown py-20 md:py-28">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
+            Ready to Begin?
+          </p>
+          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
+            Let&apos;s Explore This Experience Together
+          </h2>
+          <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">
+            Whether you&apos;re looking to take part, a university or
+            institution seeking partnerships, or interested in hosting —
+            we&apos;d love to connect with you.
+          </p>
+          <Link href="/start-your-trip" className="btn-light btn-lg">
+            Enquire Now
+          </Link>
         </div>
       </section>
     </>

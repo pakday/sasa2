@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Curated Escapes — Sasa Travel",
@@ -9,7 +8,7 @@ export const metadata: Metadata = {
     "Specially designed journeys across Africa — from 15-day East Africa adventures to signature private jet safaris and summit ascents of Kilimanjaro.",
 };
 
-const regularEscapes = [
+const allEscapes = [
   {
     tag: "15 Days",
     region: "North Africa",
@@ -77,11 +76,8 @@ const regularEscapes = [
       "Big Five safari",
     ],
   },
-];
-
-const signatureJourneys = [
   {
-    tag: "Signature Journey",
+    tag: "12 Days",
     region: "4 Countries",
     title: "An Extraordinary Safari Across Africa",
     subtitle: "Zimbabwe · Botswana · Kenya · Rwanda",
@@ -89,33 +85,30 @@ const signatureJourneys = [
       "/images/general%20pics%20for%20the%20site%20use/RWANDA/Favorite%201%202.jpeg",
     description:
       "This remarkable journey takes you through four of Africa's most iconic wildlife destinations — Zimbabwe, Botswana, Kenya, and Rwanda — over 12 unforgettable days, with the ease and exclusivity of the Emirates Executive Private Jet. Guided by trusted experts and shaped with deep local insight, this is a rare way to experience the continent in exceptional comfort, with each stop offering its own distinct beauty, rhythm, and perspective.",
-    dates: [
-      { date: "August 10 – 22, 2026", status: "10 spots left" },
-      {
-        date: "August 25 – September 6, 2026",
-        status: "Sold out",
-        soldOut: true,
-      },
-      {
-        date: "August 25 – September 6, 2027",
-        status: "Inquire for availability",
-      },
+    highlights: [
+      "Zimbabwe",
+      "Botswana",
+      "Kenya & Rwanda",
+      "Emirates Private Jet",
+      "Big Five wildlife",
     ],
-    duration: "12 Days",
   },
   {
-    tag: "Signature Journey",
+    tag: "9 Days",
     region: "Tanzania",
     title: "Journey to the Summit",
     subtitle: "Kilimanjaro via Machame Route",
     image:
       "/images/general%20pics%20for%20the%20site%20use/TANZANIA/glen-michaelsen-uAb6GF4kPq0-unsplash.jpg",
     description:
-      "Join Sasa Travel for a unique Kilimanjaro experience, guided by trusted experts on the ground in Tanzania. As the world's tallest free-standing mountain, Kilimanjaro is iconic, but it is also one of the more approachable high-altitude climbs. This journey is designed to take you to the summit at a steady, well-considered pace, following the stunning Machame Route and combining adventure with comfort every step of the way. Children aged 14 and above are welcome to join.",
-    dates: [
-      { date: "December 7 – 15, 2026", status: "Inquire for availability" },
+      "Join Sasa Travel for a unique Kilimanjaro experience, guided by trusted experts on the ground in Tanzania. As the world's tallest free-standing mountain, Kilimanjaro is iconic, but it is also one of the more approachable high-altitude climbs. This journey is designed to take you to the summit at a steady, well-considered pace, following the stunning Machame Route and combining adventure with comfort every step of the way.",
+    highlights: [
+      "Kilimanjaro summit",
+      "Machame Route",
+      "Expert guides",
+      "Tanzania",
+      "9-day ascent",
     ],
-    duration: "9 Days",
   },
 ];
 
@@ -140,7 +133,7 @@ export default function CuratedEscapesPage() {
           <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
             Special Journeys
           </p>
-          <h1 className="font-serif font-bold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
             Curated Escapes
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
@@ -162,20 +155,20 @@ export default function CuratedEscapesPage() {
         </div>
       </section>
 
-      {/* ── Regular Escapes ───────────────────────────────────────────── */}
+      {/* ── All Escapes ───────────────────────────────────────────────── */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="mb-14">
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               Curated Escapes
             </p>
-            <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-brown">
+            <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown">
               Journeys Across the Continent
             </h2>
           </div>
 
           <div className="space-y-20">
-            {regularEscapes.map((escape, i) => (
+            {allEscapes.map((escape, i) => (
               <div
                 key={escape.title}
                 className={`grid grid-cols-1 lg:grid-cols-2 gap-0 overflow-hidden ${i % 2 !== 0 ? "lg:[direction:rtl]" : ""}`}
@@ -202,7 +195,7 @@ export default function CuratedEscapesPage() {
                   <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
                     {escape.region}
                   </p>
-                  <h3 className="font-serif font-bold text-3xl md:text-4xl text-sasa-brown mb-2 leading-snug">
+                  <h3 className="font-serif font-semibold text-3xl md:text-4xl text-sasa-brown mb-2 leading-snug">
                     {escape.title}
                   </h3>
                   <p className="text-sasa-black/50 text-sm tracking-wide italic mb-7">
@@ -230,7 +223,7 @@ export default function CuratedEscapesPage() {
                     href="/start-your-trip"
                     className="btn-primary self-start"
                   >
-                    Inquire Now
+                    Enquire Now
                   </Link>
                 </div>
               </div>
@@ -239,115 +232,27 @@ export default function CuratedEscapesPage() {
         </div>
       </section>
 
-      {/* ── Signature Journeys ────────────────────────────────────────── */}
-      <section className="bg-white py-20 md:py-28">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="mb-14">
-            <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
-              Exclusive Experiences
-            </p>
-            <h2 className="font-serif font-bold text-4xl md:text-5xl text-sasa-brown">
-              Signature Journeys
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {signatureJourneys.map((journey) => (
-              <div
-                key={journey.title}
-                className="bg-sasa-white border border-sasa-brown/10 overflow-hidden"
-              >
-                <div className="relative h-72 overflow-hidden">
-                  <Image
-                    src={journey.image}
-                    alt={journey.title}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                  />
-                  <div className="absolute inset-0 bg-sasa-brown/20" />
-                  <div className="absolute top-5 left-5">
-                    <span className="bg-sasa-brown text-sasa-white text-xs tracking-[0.15em] uppercase px-3 py-1.5 font-medium">
-                      {journey.tag}
-                    </span>
-                  </div>
-                  <div className="absolute bottom-5 right-5">
-                    <span className="bg-sasa-brown/90 text-sasa-white text-xs tracking-wide px-3 py-1.5">
-                      {journey.duration}
-                    </span>
-                  </div>
-                </div>
-
-                <div className="p-8 md:p-10">
-                  <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-3">
-                    {journey.region}
-                  </p>
-                  <h3 className="font-serif font-bold text-2xl md:text-3xl text-sasa-brown mb-2 leading-snug">
-                    {journey.title}
-                  </h3>
-                  <p className="text-sasa-black/50 text-sm tracking-wide italic mb-6">
-                    {journey.subtitle}
-                  </p>
-                  <p className="text-sasa-black/65 text-sm leading-relaxed mb-7">
-                    {journey.description}
-                  </p>
-
-                  {/* Dates */}
-                  <div className="border-t border-sasa-brown/10 pt-6 mb-8">
-                    <p className="text-sasa-black/40 text-xs tracking-[0.2em] uppercase mb-4">
-                      Trip Dates
-                    </p>
-                    <div className="space-y-3">
-                      {journey.dates.map((d) => (
-                        <div
-                          key={d.date}
-                          className="flex items-center justify-between gap-4"
-                        >
-                          <span className="text-sasa-black/70 text-sm">
-                            {d.date}
-                          </span>
-                          <span
-                            className={`text-xs tracking-wide flex-shrink-0 ${d.soldOut ? "text-sasa-black/30 line-through" : "text-sasa-black/50"}`}
-                          >
-                            {d.status}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  <Link href="/start-your-trip" className="btn-primary">
-                    Inquire Now
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Inquiry Form ──────────────────────────────────────────────── */}
-      <section className="bg-gray-50 py-20 md:py-28">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-14 lg:gap-20">
-            <div className="lg:col-span-2">
-              <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-5">
-                Inquire Now
+      {/* ── CTA ───────────────────────────────────────────────────────── */}
+      <section className="bg-sasa-brown py-20 md:py-28">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.8fr)_minmax(0,0.8fr)] gap-12 lg:gap-20 items-center">
+            <div className="lg:max-w-3xl">
+              <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-6">
+                Ready to Escape?
               </p>
-              <h2 className="font-serif font-bold text-3xl md:text-4xl text-sasa-brown mb-6 leading-snug">
-                Interested in One of These Journeys?
+              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
+                Let&apos;s Start Planning Your Journey
               </h2>
-              <p className="text-sasa-black/80 text-base leading-relaxed mb-6">
-                Share a few details and we&apos;ll match you with the right
-                person on our team to begin planning your escape.
-              </p>
-              <p className="text-sasa-black/45 text-sm leading-relaxed">
-                Every journey is tailored to you — the dates, pace, lodges, and
-                experiences are all shaped around what you&apos;re looking for.
+              <p className="text-sasa-white/75 text-base leading-relaxed">
+                Each of these journeys can be customized to match your
+                interests, timeline, and travel style. Share what appeals to you
+                and we&apos;ll shape it into something truly personal.
               </p>
             </div>
-            <div className="lg:col-span-3">
-              <ContactForm />
+            <div className="flex items-center justify-center lg:justify-end">
+              <Link href="/start-your-trip" className="btn-light btn-lg">
+                Enquire Now
+              </Link>
             </div>
           </div>
         </div>
