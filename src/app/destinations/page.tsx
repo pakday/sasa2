@@ -129,6 +129,7 @@ export default function DestinationsPage() {
       {/* ── Hero ──────────────────────────────────────────────────────── */}
       <section className="relative min-h-[65vh] flex items-end justify-start overflow-hidden">
         <video
+          suppressHydrationWarning
           autoPlay
           muted
           loop
@@ -141,7 +142,7 @@ export default function DestinationsPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/80 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-5">
+          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-5">
             Explore Africa
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
@@ -186,7 +187,7 @@ export default function DestinationsPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/55 via-transparent to-transparent" />
                   <div className="absolute top-4 left-4">
-                    <span className="bg-sasa-white/90 text-sasa-brown text-xs tracking-[0.1em] uppercase px-3 py-1.5 font-medium">
+                    <span className="bg-sasa-white/90 text-sasa-brown text-xs tracking-xs uppercase px-3 py-1.5 font-medium">
                       {dest.region}
                     </span>
                   </div>
@@ -194,7 +195,7 @@ export default function DestinationsPage() {
                 <h3 className="font-serif font-semibold heading-sm text-sasa-brown mb-1.5">
                   {dest.name}
                 </h3>
-                <p className="text-sasa-sec-brown text-xs tracking-[0.15em] uppercase mb-4">
+                <p className="text-sasa-sec-brown text-xs tracking-sm uppercase mb-4">
                   {dest.tagline}
                 </p>
                 <p className="text-sasa-black/80 text-sm leading-relaxed flex-1 mb-5">
@@ -202,7 +203,7 @@ export default function DestinationsPage() {
                 </p>
                 <Link
                   href="/start-your-trip"
-                  className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-[0.15em] uppercase font-medium hover:opacity-60 transition-opacity"
+                  className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-sm uppercase font-medium hover:opacity-60 transition-opacity"
                 >
                   Enquire Now
                   <svg
@@ -228,7 +229,7 @@ export default function DestinationsPage() {
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section className="bg-sasa-brown py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
+          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
             Ready to Begin?
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-7 leading-snug">

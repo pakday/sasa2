@@ -50,7 +50,7 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/85 via-sasa-brown/20 to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
+          <p className="text-sasa-white/55 text-sm tracking-xl uppercase mb-5">
             Our Story
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
@@ -82,7 +82,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 items-center">
             <div>
-              <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
+              <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-6">
                 Who We Are
               </p>
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
@@ -156,7 +156,7 @@ export default function AboutPage() {
       <section className="bg-sasa-white py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
-            <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
+            <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-4">
               What Sets Us Apart
             </p>
             <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
@@ -187,7 +187,7 @@ export default function AboutPage() {
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section className="bg-sasa-brown py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
+          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
             Begin Your Journey
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
@@ -227,7 +227,7 @@ export default function AboutPage() {
               >
                 <path d="M0 24V13.7C0 5.7 4 1.1 12 0l1.3 2C9 3 6.8 5.1 5.8 8.3H12V24H0zm17.3 0V13.7c0-8 4-12.6 12-13.7l1.3 2c-4.3 1-6.5 3.1-7.5 6.3H30V24H17.3z" />
               </svg>
-              <p className="font-serif heading-md text-sasa-brown italic leading-[1.45] mb-10">
+              <p className="font-serif heading-md text-sasa-brown italic leading-snug-plus-2 mb-10">
                 When you come from Africa, you never stop wanting to share it.
                 It can be a complex place, but it is also full of warmth,
                 creativity, passion, and extraordinary beauty.
@@ -236,7 +236,7 @@ export default function AboutPage() {
                 <p className="font-serif text-2xl text-sasa-brown mb-1">
                   Emmanuel Kwizera
                 </p>
-                <p className="text-sasa-brown/45 text-xs tracking-[0.2em] uppercase">
+                <p className="text-sasa-brown/45 text-xs tracking-sm-plus uppercase">
                   Founder &amp; CEO, Sasa Travel
                 </p>
               </div>
@@ -259,7 +259,7 @@ export default function AboutPage() {
               />
             </div>
             <div>
-              <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
+              <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-6">
                 The Team
               </p>
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">

@@ -118,6 +118,7 @@ export default function CuratedEscapesPage() {
       {/* ── Hero ──────────────────────────────────────────────────────── */}
       <section className="relative min-h-[65vh] flex items-end justify-start overflow-hidden">
         <video
+          suppressHydrationWarning
           autoPlay
           muted
           loop
@@ -130,7 +131,7 @@ export default function CuratedEscapesPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/80 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
+          <p className="text-sasa-white/55 text-sm tracking-xl uppercase mb-5">
             Special Journeys
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
@@ -159,7 +160,7 @@ export default function CuratedEscapesPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="mb-14">
-            <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
+            <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-4">
               Curated Escapes
             </p>
             <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
@@ -184,7 +185,7 @@ export default function CuratedEscapesPage() {
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <div className="absolute top-5 left-5">
-                    <span className="bg-sasa-brown text-sasa-white text-xs tracking-[0.15em] uppercase px-3 py-1.5">
+                    <span className="bg-sasa-brown text-sasa-white text-xs tracking-sm uppercase px-3 py-1.5">
                       {escape.tag}
                     </span>
                   </div>
@@ -192,7 +193,7 @@ export default function CuratedEscapesPage() {
                 <div
                   className={`bg-sasa-white p-10 md:p-14 flex flex-col justify-center ${i % 2 !== 0 ? "lg:[direction:ltr]" : ""}`}
                 >
-                  <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
+                  <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-4">
                     {escape.region}
                   </p>
                   <h3 className="font-serif font-semibold heading-md text-sasa-brown mb-2 leading-snug">
@@ -205,7 +206,7 @@ export default function CuratedEscapesPage() {
                     {escape.description}
                   </p>
                   <div className="mb-8">
-                    <p className="text-sasa-black/40 text-xs tracking-[0.2em] uppercase mb-3">
+                    <p className="text-sasa-black/40 text-xs tracking-sm-plus uppercase mb-3">
                       Highlights
                     </p>
                     <div className="flex flex-wrap gap-2">
@@ -237,7 +238,7 @@ export default function CuratedEscapesPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.8fr)_minmax(0,0.8fr)] gap-12 lg:gap-20 items-center">
             <div className="lg:max-w-3xl">
-              <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-6">
+              <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-6">
                 Ready to Escape?
               </p>
               <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">

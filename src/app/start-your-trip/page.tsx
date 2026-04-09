@@ -26,7 +26,7 @@ export default function StartYourTripPage() {
         <div className="absolute inset-0 bg-gradient-to-b from-sasa-brown/40 to-sasa-brown/90" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
+          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
             Begin Conversation
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-6">
@@ -45,7 +45,7 @@ export default function StartYourTripPage() {
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-14 lg:gap-20">
             {/* Left — info */}
             <div className="lg:col-span-2 lg:pt-2">
-              <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-5">
+              <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-5">
                 How It Works
               </p>
               <h2 className="font-serif font-semibold heading-md text-sasa-brown mb-7 leading-snug">
@@ -92,7 +92,7 @@ export default function StartYourTripPage() {
 
               {/* Contact details */}
               <div className="border-t border-sasa-black/10 pt-8">
-                <p className="text-sasa-black/45 text-xs tracking-[0.25em] uppercase mb-5">
+                <p className="text-sasa-black/45 text-xs tracking-md uppercase mb-5">
                   Other Ways to Connect
                 </p>
                 <div className="space-y-4">

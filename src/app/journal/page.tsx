@@ -73,7 +73,7 @@ export default function JournalPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/95 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white text-xs tracking-[0.4em] uppercase mb-5">
+          <p className="text-sasa-white text-xs tracking-xl uppercase mb-5">
             Stories &amp; Insights
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
@@ -111,7 +111,7 @@ export default function JournalPage() {
                     />
                   </div>
                   <div className="flex items-center gap-4 mb-3">
-                    <span className="text-sasa-sec-brown text-xs tracking-[0.2em] uppercase">
+                    <span className="text-sasa-sec-brown text-xs tracking-sm-plus uppercase">
                       {post.category}
                     </span>
                     <span className="text-sasa-black/50 text-xs">
@@ -128,7 +128,7 @@ export default function JournalPage() {
                   </p>
                   <Link
                     href={`/journal/${slug}`}
-                    className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-[0.15em] uppercase font-medium hover:opacity-60 transition-opacity"
+                    className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-sm uppercase font-medium hover:opacity-60 transition-opacity"
                   >
                     Read Post
                     <svg
@@ -155,7 +155,7 @@ export default function JournalPage() {
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section className="bg-sasa-brown py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
+          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
             Ready to Begin?
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-7 leading-snug">

@@ -201,7 +201,7 @@ export default async function PostPage({
 
         <div className="absolute bottom-0 left-0 right-0 p-6 lg:p-10 text-sasa-white">
           <div className="max-w-4xl mx-auto">
-            <p className="text-xs tracking-[0.15em] uppercase mb-4 text-sasa-white/80">
+            <p className="text-xs tracking-sm uppercase mb-4 text-sasa-white/80">
               {post.category}
             </p>
             <h1 className="font-serif font-semibold heading-xl leading-tight mb-4">

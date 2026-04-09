@@ -120,7 +120,7 @@ export default function ContactForm({
     <form onSubmit={handleSubmit} className="space-y-10" noValidate>
       {/* ── Personal Information ───────────────────────────────────── */}
       <div>
-        <p className="text-sasa-black text-xs tracking-[0.35em] uppercase mb-6 font-medium">
+        <p className="text-sasa-black text-xs tracking-lg uppercase mb-6 font-medium">
           Personal Information
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -240,7 +240,7 @@ export default function ContactForm({
 
       {/* ── Trip Information ──────────────────────────────────────── */}
       <div>
-        <p className="text-sasa-black text-xs tracking-[0.35em] uppercase mb-6 font-medium">
+        <p className="text-sasa-black text-xs tracking-lg uppercase mb-6 font-medium">
           Trip Information
         </p>
 

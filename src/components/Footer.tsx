@@ -49,7 +49,7 @@ export default function Footer() {
 
           {/* Explore */}
           <div>
-            <h4 className="text-sasa-black/70 text-xs tracking-[0.2em] uppercase mb-5 font-medium">
+            <h4 className="text-sasa-black/70 text-xs tracking-sm-plus uppercase mb-5 font-medium">
               Explore
             </h4>
             <ul className="space-y-3">
@@ -68,7 +68,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-sasa-black/70 text-xs tracking-[0.2em] uppercase mb-5 font-medium">
+            <h4 className="text-sasa-black/70 text-xs tracking-sm-plus uppercase mb-5 font-medium">
               Find Us
             </h4>
             <address className="not-italic text-sasa-brown text-sm leading-relaxed space-y-3">

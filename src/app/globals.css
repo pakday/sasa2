@@ -13,6 +13,20 @@
   --color-sasa-black: #1d1d1d;
   --color-sasa-white: #ebe8d8;
   --color-sasa-green: #2d7a52;
+
+  /* Custom Letter Spacing (Tracking) — semantic scale */
+  --tracking-xs: 0.1em;
+  --tracking-xs-2: 0.12em;
+  --tracking-sm: 0.15em;
+  --tracking-sm-plus: 0.2em;
+  --tracking-md: 0.25em;
+  --tracking-md-plus: 0.3em;
+  --tracking-lg: 0.35em;
+  --tracking-xl: 0.4em;
+
+  /* Custom Line Height (Leading) — semantic scale */
+  --leading-snug-plus: 1.4;
+  --leading-snug-plus-2: 1.45;
 }
 
 *,
@@ -124,4 +138,42 @@ body {
 .heading-2xl {
   font-size: clamp(4.56rem, calc(4.56rem + 0.18vw), 6.7rem);
   line-height: 1.03;
+}
+.heading-3xl {
+  font-size: clamp(6.2rem, calc(6.2rem + 0.24vw), 9rem);
+  line-height: 1.02;
+}
+
+@layer utilities {
+  .tracking-xs {
+    letter-spacing: 0.1em;
+  }
+  .tracking-xs-2 {
+    letter-spacing: 0.12em;
+  }
+  .tracking-sm {
+    letter-spacing: 0.15em;
+  }
+  .tracking-sm-plus {
+    letter-spacing: 0.2em;
+  }
+  .tracking-md {
+    letter-spacing: 0.25em;
+  }
+  .tracking-md-plus {
+    letter-spacing: 0.3em;
+  }
+  .tracking-lg {
+    letter-spacing: 0.35em;
+  }
+  .tracking-xl {
+    letter-spacing: 0.4em;
+  }
+
+  .leading-snug-plus {
+    line-height: 1.4;
+  }
+  .leading-snug-plus-2 {
+    line-height: 1.45;
+  }
 }

@@ -17,6 +17,7 @@ export default function OurImpactPage() {
         suppressHydrationWarning
       >
         <video
+          suppressHydrationWarning
           autoPlay
           muted
           loop
@@ -29,7 +30,7 @@ export default function OurImpactPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/85 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
+          <p className="text-sasa-white/55 text-sm tracking-xl uppercase mb-5">
             Responsible Travel
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
@@ -45,7 +46,7 @@ export default function OurImpactPage() {
       {/* ── Luxury with Purpose ───────────────────────────────────────── */}
       <section className="bg-sasa-white py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-8">
+          <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-8">
             Our Philosophy
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8">
@@ -82,7 +83,7 @@ export default function OurImpactPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 items-center">
             <div>
-              <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
+              <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-6">
                 Community Connection
               </p>
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
@@ -125,7 +126,7 @@ export default function OurImpactPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 items-center">
             <div className="lg:order-2">
-              <p className="text-sasa-white/55 text-xs tracking-[0.3em] uppercase mb-6">
+              <p className="text-sasa-white/55 text-xs tracking-md-plus uppercase mb-6">
                 Our Focus
               </p>
               <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
@@ -209,7 +210,7 @@ export default function OurImpactPage() {
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section className="bg-white py-20 md:py-24">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-sec-brown text-xs tracking-[0.4em] uppercase mb-6">
+          <p className="text-sasa-sec-brown text-xs tracking-xl uppercase mb-6">
             Travel with Purpose
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">

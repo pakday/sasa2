@@ -37,7 +37,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-sasa-brown text-sm tracking-[0.12em] uppercase font-medium hover:opacity-60 transition-opacity duration-200"
+                className="text-sasa-brown text-sm tracking-xs-2 uppercase font-medium hover:opacity-60 transition-opacity duration-200"
               >
                 {item.name}
               </Link>
@@ -99,7 +99,7 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
-                className="block text-sasa-brown text-sm tracking-[0.12em] uppercase font-medium"
+                className="block text-sasa-brown text-sm tracking-xs-2 uppercase font-medium"
               >
                 {item.name}
               </Link>

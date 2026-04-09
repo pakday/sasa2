@@ -214,7 +214,7 @@ export default function HomePage() {
 
         {/* Content */}
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-          <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-8">
+          <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-8">
             Sasa Travel
           </p>
           <h1 className="font-serif font-semibold heading-2xl text-sasa-white mb-8 tracking-tight">
@@ -258,7 +258,7 @@ export default function HomePage() {
       <section className="bg-sasa-white py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="w-12 h-px bg-sasa-brown/30 mx-auto mb-10" />
-          <p className="font-serif heading-md text-sasa-brown italic leading-[1.4] mb-10">
+          <p className="font-serif heading-md text-sasa-brown italic leading-snug-plus mb-10">
             The most meaningful journeys are rooted in place. We design private
             experiences across Africa with local insight, care, and an intimate
             understanding of the continent.
@@ -281,7 +281,7 @@ export default function HomePage() {
               />
             </div>
             <div>
-              <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
+              <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-6">
                 What We Create
               </p>
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown leading-tight mb-8">
@@ -312,7 +312,7 @@ export default function HomePage() {
       <section className="bg-sasa-white py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
-            <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
+            <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-4">
               Where We Travel
             </p>
             <h2 className="font-serif font-semibold heading-xl text-sasa-brown">
@@ -359,7 +359,7 @@ export default function HomePage() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/50 via-transparent to-transparent" />
                     <div className="absolute top-4 left-4">
-                      <span className="bg-sasa-white/90 text-sasa-brown text-xs tracking-[0.12em] uppercase px-3 py-1.5 font-medium">
+                      <span className="bg-sasa-white/90 text-sasa-brown text-xs tracking-xs-2 uppercase px-3 py-1.5 font-medium">
                         {regionTag}
                       </span>
                     </div>
@@ -367,7 +367,7 @@ export default function HomePage() {
                   <h3 className="font-serif font-semibold text-2xl text-sasa-brown mb-2">
                     {dest.name}
                   </h3>
-                  <p className="text-sasa-sec-brown text-xs tracking-[0.15em] uppercase mb-3">
+                  <p className="text-sasa-sec-brown text-xs tracking-sm uppercase mb-3">
                     {dest.sub}
                   </p>
                   <p className="text-sasa-black/70 text-sm leading-relaxed mb-5 flex-1">
@@ -376,7 +376,7 @@ export default function HomePage() {
                   </p>
                   <Link
                     href={dest.href}
-                    className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-[0.15em] uppercase font-medium hover:opacity-60 transition-opacity mt-auto"
+                    className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-sm uppercase font-medium hover:opacity-60 transition-opacity mt-auto"
                   >
                     Inquire Now
                     <svg
@@ -422,7 +422,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="lg:col-span-3">
-              <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-8">
+              <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-8">
                 Founder&apos;s Message
               </p>
               <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
@@ -454,7 +454,7 @@ export default function HomePage() {
               </p>
               <div className="border-t border-sasa-white/15 pt-6">
                 <p className="font-serif text-2xl text-sasa-white">Emmanuel</p>
-                <p className="text-sasa-white/45 text-xs tracking-[0.2em] uppercase mt-1">
+                <p className="text-sasa-white/45 text-xs tracking-sm-plus uppercase mt-1">
                   Founder &amp; CEO, Sasa Travel
                 </p>
               </div>
@@ -468,7 +468,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
-              <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
+              <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-4">
                 Special Journeys
               </p>
               <h2 className="font-serif font-semibold heading-xl text-sasa-brown">
@@ -496,12 +496,12 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/55 via-transparent to-transparent" />
                   <div className="absolute top-4 left-4">
-                    <span className="bg-sasa-brown text-sasa-white text-xs tracking-[0.15em] uppercase px-3 py-1.5">
+                    <span className="bg-sasa-brown text-sasa-white text-xs tracking-sm uppercase px-3 py-1.5">
                       {trip.tag}
                     </span>
                   </div>
                 </div>
-                <p className="text-sasa-sec-brown text-xs tracking-[0.2em] uppercase mb-2">
+                <p className="text-sasa-sec-brown text-xs tracking-sm-plus uppercase mb-2">
                   {trip.region}
                 </p>
                 <h3 className="font-serif font-semibold text-2xl md:text-3xl text-sasa-brown mb-4 leading-snug">
@@ -512,7 +512,7 @@ export default function HomePage() {
                 </p>
                 <Link
                   href={trip.href}
-                  className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-[0.15em] uppercase font-medium hover:opacity-60 transition-opacity duration-300 group/link"
+                  className="inline-flex items-center gap-2 text-sasa-brown text-xs tracking-sm uppercase font-medium hover:opacity-60 transition-opacity duration-300 group/link"
                 >
                   Explore Journey
                   <svg
@@ -545,7 +545,7 @@ export default function HomePage() {
       <section className="bg-sasa-white py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
-            <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
+            <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-4">
               What Travelers Say
             </p>
             <h2 className="font-serif font-semibold heading-xl text-sasa-brown">
@@ -597,7 +597,7 @@ export default function HomePage() {
               />
             </div>
             <div>
-              <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
+              <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-6">
                 Our Impact
               </p>
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-6 leading-tight">
@@ -627,7 +627,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
-              <p className="text-sasa-black/45 text-xs tracking-[0.3em] uppercase mb-4">
+              <p className="text-sasa-black/45 text-xs tracking-md-plus uppercase mb-4">
                 From the Journal
               </p>
               <h2 className="font-serif font-semibold heading-xl text-sasa-brown">
@@ -636,7 +636,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/destinations"
-              className="hidden md:inline-block text-sasa-brown text-xs tracking-[0.2em] uppercase font-medium border-b border-sasa-brown pb-0.5 hover:opacity-60 transition-opacity"
+              className="hidden md:inline-block text-sasa-brown text-xs tracking-sm-plus uppercase font-medium border-b border-sasa-brown pb-0.5 hover:opacity-60 transition-opacity"
             >
               View All
             </Link>
@@ -654,7 +654,7 @@ export default function HomePage() {
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </div>
-                <p className="text-sasa-green text-xs tracking-[0.2em] uppercase mb-3">
+                <p className="text-sasa-green text-xs tracking-sm-plus uppercase mb-3">
                   {post.category} &middot; {post.date}
                 </p>
                 <h3 className="font-serif heading-sm text-sasa-brown leading-snug group-hover:opacity-70 transition-opacity duration-300">
@@ -679,7 +679,7 @@ export default function HomePage() {
         </div>
         <div className="absolute inset-0 bg-sasa-brown/70" />
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-6">
+          <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-6">
             Ready to Explore?
           </p>
           <h2 className="font-serif font-semibold heading-xl text-sasa-white mb-8 leading-snug">

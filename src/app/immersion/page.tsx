@@ -59,6 +59,7 @@ export default function ImmersionPage() {
       {/* ── Hero ──────────────────────────────────────────────────────── */}
       <section className="relative min-h-[65vh] flex items-end justify-start overflow-hidden">
         <video
+          suppressHydrationWarning
           autoPlay
           muted
           loop
@@ -71,7 +72,7 @@ export default function ImmersionPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/80 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
+          <p className="text-sasa-white/55 text-sm tracking-xl uppercase mb-5">
             Professional Experience
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
@@ -90,7 +91,7 @@ export default function ImmersionPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-24 items-center">
             <div>
-              <p className="text-sasa-sec-brown text-sm tracking-[0.3em] uppercase mb-6">
+              <p className="text-sasa-sec-brown text-sm tracking-md-plus uppercase mb-6">
                 About Immersion
               </p>
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
@@ -155,7 +156,7 @@ export default function ImmersionPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-14">
-            <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
+            <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-4">
               The Experience
             </p>
             <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
@@ -209,10 +210,13 @@ export default function ImmersionPage() {
       <section className="bg-sasa-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="mb-14">
-            <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
+            <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-4">
               Immersion Cities
             </p>
-              <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
+            <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
+              Cities in the Immersion Program
+            </h2>
+          </div>
           <div className="space-y-1">
             {locations.map((loc, i) => (
               <div
@@ -233,7 +237,7 @@ export default function ImmersionPage() {
                 <div
                   className={`bg-white p-10 md:p-14 flex flex-col justify-center ${i % 2 !== 0 ? "lg:[direction:ltr]" : ""}`}
                 >
-                  <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-3">
+                  <p className="text-sasa-sec-brown text-xs tracking-md-plus uppercase mb-3">
                     {loc.country}
                   </p>
                   <h3 className="font-serif font-semibold text-3xl text-sasa-brown mb-5">
@@ -262,7 +266,7 @@ export default function ImmersionPage() {
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section className="bg-sasa-brown py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
+          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
             Ready to Begin?
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
