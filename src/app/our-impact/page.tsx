@@ -12,7 +12,10 @@ export default function OurImpactPage() {
   return (
     <>
       {/* ── Hero ──────────────────────────────────────────────────────── */}
-      <section className="relative min-h-[65vh] flex items-end justify-start overflow-hidden">
+      <section
+        className="relative min-h-[65vh] flex items-end justify-start overflow-hidden"
+        suppressHydrationWarning
+      >
         <video
           autoPlay
           muted

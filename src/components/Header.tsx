@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navLinks = [
-  { name: "Destinations", href: "/destinations" },
   { name: "Curated Escapes", href: "/curated-escapes" },
   { name: "Immersion", href: "/immersion" },
   { name: "About Us", href: "/about" },

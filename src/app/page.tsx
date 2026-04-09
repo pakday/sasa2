@@ -191,6 +191,7 @@ export default function HomePage() {
       {/* ── Hero ──────────────────────────────────────────────────────── */}
       <section className="relative min-h-[calc(100vh-80px)] flex items-center justify-center overflow-hidden">
         <video
+          suppressHydrationWarning
           autoPlay
           muted
           loop
