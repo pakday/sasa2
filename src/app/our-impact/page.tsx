@@ -32,7 +32,7 @@ export default function OurImpactPage() {
           <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
             Responsible Travel
           </p>
-          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             Our Impact
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
@@ -48,7 +48,7 @@ export default function OurImpactPage() {
           <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-8">
             Our Philosophy
           </p>
-          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-8">
+          <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8">
             Luxury with Purpose
           </h2>
           <p className="text-sasa-black/65 text-base md:text-lg leading-relaxed mb-6">
@@ -85,7 +85,7 @@ export default function OurImpactPage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
                 Community Connection
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
+              <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
                 The Land and Its People Are Inseparable
               </h2>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
@@ -128,7 +128,7 @@ export default function OurImpactPage() {
               <p className="text-sasa-white/55 text-xs tracking-[0.3em] uppercase mb-6">
                 Our Focus
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
+              <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
                 Supporting Youth-Led Small Businesses
               </h2>
               <p className="text-sasa-white/70 text-base leading-relaxed mb-6">
@@ -169,7 +169,7 @@ export default function OurImpactPage() {
       <section className="bg-sasa-white py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
-            <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown">
+            <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
               How We Operate
             </h2>
           </div>
@@ -194,8 +194,8 @@ export default function OurImpactPage() {
                 className={`p-10 md:p-12 ${i < 2 ? "border-b md:border-b-0 md:border-r border-sasa-black/10" : ""}`}
               >
                 <div className="w-8 h-px bg-sasa-brown mb-8" />
-                <h3 className="font-serif font-semibold text-2xl text-sasa-brown mb-4">
-                  {pillar.title}
+                <h3 className="font-serif font-semibold heading-xs text-sasa-brown mb-4">
+                  Contact Details
                 </h3>
                 <p className="text-sasa-black/80 text-sm leading-relaxed">
                   {pillar.body}
@@ -212,7 +212,7 @@ export default function OurImpactPage() {
           <p className="text-sasa-sec-brown text-xs tracking-[0.4em] uppercase mb-6">
             Travel with Purpose
           </p>
-          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
+          <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
             Every Journey You Take <br className="hidden md:block" />
             Makes a Difference
           </h2>

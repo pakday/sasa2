@@ -204,7 +204,7 @@ export default async function PostPage({
             <p className="text-xs tracking-[0.15em] uppercase mb-4 text-sasa-white/80">
               {post.category}
             </p>
-            <h1 className="font-serif font-semibold text-4xl md:text-5xl leading-tight mb-4">
+            <h1 className="font-serif font-semibold heading-xl leading-tight mb-4">
               {post.title}
             </h1>
             <p className="text-sasa-white/70 text-sm">{post.date}</p>

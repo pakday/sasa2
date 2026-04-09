@@ -133,7 +133,7 @@ export default function CuratedEscapesPage() {
           <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
             Special Journeys
           </p>
-          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             Curated Escapes
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
@@ -162,7 +162,7 @@ export default function CuratedEscapesPage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               Curated Escapes
             </p>
-            <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown">
+            <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
               Journeys Across the Continent
             </h2>
           </div>
@@ -195,7 +195,7 @@ export default function CuratedEscapesPage() {
                   <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
                     {escape.region}
                   </p>
-                  <h3 className="font-serif font-semibold text-3xl md:text-4xl text-sasa-brown mb-2 leading-snug">
+                  <h3 className="font-serif font-semibold heading-md text-sasa-brown mb-2 leading-snug">
                     {escape.title}
                   </h3>
                   <p className="text-sasa-black/50 text-sm tracking-wide italic mb-7">
@@ -240,7 +240,7 @@ export default function CuratedEscapesPage() {
               <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-6">
                 Ready to Escape?
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
+              <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
                 Let&apos;s Start Planning Your Journey
               </h2>
               <p className="text-sasa-white/75 text-base leading-relaxed">

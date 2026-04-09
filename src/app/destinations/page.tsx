@@ -144,7 +144,7 @@ export default function DestinationsPage() {
           <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-5">
             Explore Africa
           </p>
-          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             Destinations
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
@@ -169,7 +169,7 @@ export default function DestinationsPage() {
       {/* ── All Destinations ──────────────────────────────────────────── */}
       <section className="bg-sasa-white py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <h2 className="font-serif font-semibold text-3xl md:text-4xl text-sasa-brown mb-12">
+          <h2 className="font-serif font-semibold heading-md text-sasa-brown mb-12">
             All Destinations
           </h2>
 
@@ -191,7 +191,7 @@ export default function DestinationsPage() {
                     </span>
                   </div>
                 </div>
-                <h3 className="font-serif font-semibold text-2xl text-sasa-brown mb-1.5">
+                <h3 className="font-serif font-semibold heading-sm text-sasa-brown mb-1.5">
                   {dest.name}
                 </h3>
                 <p className="text-sasa-sec-brown text-xs tracking-[0.15em] uppercase mb-4">
@@ -231,7 +231,7 @@ export default function DestinationsPage() {
           <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
             Ready to Begin?
           </p>
-          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-7 leading-snug">
+          <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-7 leading-snug">
             Not Sure Where to Start?
           </h2>
           <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">

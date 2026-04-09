@@ -74,7 +74,7 @@ export default function ImmersionPage() {
           <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
             Professional Experience
           </p>
-          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             Immersion
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-2xl leading-relaxed">
@@ -93,7 +93,7 @@ export default function ImmersionPage() {
               <p className="text-sasa-sec-brown text-sm tracking-[0.3em] uppercase mb-6">
                 About Immersion
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
+              <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
                 Work. Learn. Connect. Across Africa.
               </h2>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
@@ -158,7 +158,7 @@ export default function ImmersionPage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               The Experience
             </p>
-            <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown">
+            <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
               What You&apos;ll Gain
             </h2>
           </div>
@@ -193,7 +193,7 @@ export default function ImmersionPage() {
                 <p className="font-serif text-5xl text-sasa-brown/30 mb-4 leading-none">
                   {item.number}
                 </p>
-                <h3 className="font-serif font-semibold text-xl text-sasa-brown mb-3">
+                <h3 className="font-serif font-semibold heading-xs text-sasa-brown mb-3">
                   {item.title}
                 </h3>
                 <p className="text-sasa-black/80 text-sm leading-relaxed">
@@ -212,11 +212,7 @@ export default function ImmersionPage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               Immersion Cities
             </p>
-            <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown">
-              Where We Currently Operate
-            </h2>
-          </div>
-
+              <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
           <div className="space-y-1">
             {locations.map((loc, i) => (
               <div
@@ -269,7 +265,7 @@ export default function ImmersionPage() {
           <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
             Ready to Begin?
           </p>
-          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
+          <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
             Let&apos;s Explore This Experience Together
           </h2>
           <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">

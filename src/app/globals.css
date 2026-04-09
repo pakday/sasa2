@@ -99,3 +99,29 @@ body {
   padding: 0.5rem 1.5rem;
   font-size: 0.65rem;
 }
+
+/* ─── Fluid Heading Size Utilities ───────────────────────────────────── */
+.heading-xs {
+  font-size: clamp(1.13rem, calc(1.13rem + 0.03vw), 1.5rem);
+  line-height: 1.3;
+}
+.heading-sm {
+  font-size: clamp(1.51rem, calc(1.51rem + 0.06vw), 2.25rem);
+  line-height: 1.2;
+}
+.heading-md {
+  font-size: clamp(2.12rem, calc(2.12rem + 0.08vw), 3rem);
+  line-height: 1.15;
+}
+.heading-lg {
+  font-size: clamp(2.67rem, calc(2.67rem + 0.11vw), 4rem);
+  line-height: 1.1;
+}
+.heading-xl {
+  font-size: clamp(3.38rem, calc(3.38rem + 0.16vw), 5.3rem);
+  line-height: 1.05;
+}
+.heading-2xl {
+  font-size: clamp(4.56rem, calc(4.56rem + 0.18vw), 6.7rem);
+  line-height: 1.03;
+}

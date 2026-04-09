@@ -217,7 +217,7 @@ export default function HomePage() {
           <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-8">
             Sasa Travel
           </p>
-          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-sasa-white leading-[1.05] mb-8 tracking-tight">
+          <h1 className="font-serif font-semibold heading-2xl text-sasa-white mb-8 tracking-tight">
             Experience Africa <br className="hidden md:block" />
             Through the Eyes of Locals
           </h1>
@@ -258,7 +258,7 @@ export default function HomePage() {
       <section className="bg-sasa-white py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="w-12 h-px bg-sasa-brown/30 mx-auto mb-10" />
-          <p className="font-serif text-3xl md:text-4xl lg:text-[2.6rem] text-sasa-brown leading-[1.4] italic mb-10">
+          <p className="font-serif heading-md text-sasa-brown italic leading-[1.4] mb-10">
             The most meaningful journeys are rooted in place. We design private
             experiences across Africa with local insight, care, and an intimate
             understanding of the continent.
@@ -284,7 +284,7 @@ export default function HomePage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
                 What We Create
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown leading-tight mb-8">
+              <h2 className="font-serif font-semibold heading-lg text-sasa-brown leading-tight mb-8">
                 Journeys That Connect You <br className="hidden lg:block" />
                 to the True Africa
               </h2>
@@ -315,7 +315,7 @@ export default function HomePage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               Where We Travel
             </p>
-            <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+            <h2 className="font-serif font-semibold heading-xl text-sasa-brown">
               Destinations
             </h2>
           </div>
@@ -425,7 +425,7 @@ export default function HomePage() {
               <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-8">
                 Founder&apos;s Message
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
+              <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
                 Africa Has Always Remained the Place That Grounds Me Most
               </h2>
               <p className="text-sasa-white/70 text-base leading-relaxed mb-5">
@@ -471,7 +471,7 @@ export default function HomePage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
                 Special Journeys
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+              <h2 className="font-serif font-semibold heading-xl text-sasa-brown">
                 Curated Escapes
               </h2>
             </div>
@@ -548,11 +548,10 @@ export default function HomePage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               What Travelers Say
             </p>
-            <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+            <h2 className="font-serif font-semibold heading-xl text-sasa-brown">
               Stories from the Field
             </h2>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {testimonials.map((t, i) => (
               <div
@@ -601,7 +600,7 @@ export default function HomePage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
                 Our Impact
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-6 leading-tight">
+              <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-6 leading-tight">
                 Travel That Gives Back
               </h2>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
@@ -631,7 +630,7 @@ export default function HomePage() {
               <p className="text-sasa-black/45 text-xs tracking-[0.3em] uppercase mb-4">
                 From the Journal
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+              <h2 className="font-serif font-semibold heading-xl text-sasa-brown">
                 Stories &amp; Insights
               </h2>
             </div>
@@ -658,7 +657,7 @@ export default function HomePage() {
                 <p className="text-sasa-green text-xs tracking-[0.2em] uppercase mb-3">
                   {post.category} &middot; {post.date}
                 </p>
-                <h3 className="font-serif text-xl md:text-2xl text-sasa-brown leading-snug group-hover:opacity-70 transition-opacity duration-300">
+                <h3 className="font-serif heading-sm text-sasa-brown leading-snug group-hover:opacity-70 transition-opacity duration-300">
                   {post.title}
                 </h3>
               </Link>
@@ -683,7 +682,7 @@ export default function HomePage() {
           <p className="text-sasa-white/60 text-xs tracking-[0.4em] uppercase mb-6">
             Ready to Explore?
           </p>
-          <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-white mb-8 leading-snug">
+          <h2 className="font-serif font-semibold heading-xl text-sasa-white mb-8 leading-snug">
             Your Africa Journey <br className="hidden md:block" />
             Begins Here
           </h2>

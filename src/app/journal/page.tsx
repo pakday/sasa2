@@ -76,7 +76,7 @@ export default function JournalPage() {
           <p className="text-sasa-white text-xs tracking-[0.4em] uppercase mb-5">
             Stories &amp; Insights
           </p>
-          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             Journal
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
@@ -89,7 +89,7 @@ export default function JournalPage() {
       {/* ── All Posts ─────────────────────────────────────────────────── */}
       <section className="bg-sasa-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <h2 className="font-serif font-semibold text-3xl md:text-4xl text-sasa-brown mb-12">
+          <h2 className="font-serif font-semibold heading-md text-sasa-brown mb-12">
             Stories & Insights
           </h2>
 
@@ -119,7 +119,7 @@ export default function JournalPage() {
                     </span>
                   </div>
                   <Link href={`/journal/${slug}`}>
-                    <h3 className="font-serif font-semibold text-xl text-sasa-brown mb-3 leading-snug flex-1 hover:text-sasa-brown/70 transition-colors cursor-pointer">
+                    <h3 className="font-serif font-semibold heading-xs text-sasa-brown mb-3 leading-snug flex-1 hover:text-sasa-brown/70 transition-colors cursor-pointer">
                       {post.title}
                     </h3>
                   </Link>
@@ -158,7 +158,7 @@ export default function JournalPage() {
           <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
             Ready to Begin?
           </p>
-          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-7 leading-snug">
+          <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-7 leading-snug">
             Let&apos;s Plan Your Journey
           </h2>
           <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">

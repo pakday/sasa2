@@ -37,6 +37,7 @@ export default function AboutPage() {
       {/* ── Hero ──────────────────────────────────────────────────────── */}
       <section className="relative min-h-[65vh] flex items-end justify-start overflow-hidden">
         <video
+          suppressHydrationWarning
           autoPlay
           muted
           loop
@@ -52,7 +53,7 @@ export default function AboutPage() {
           <p className="text-sasa-white/55 text-sm tracking-[0.4em] uppercase mb-5">
             Our Story
           </p>
-          <h1 className="font-serif font-semibold text-5xl md:text-6xl lg:text-7xl text-sasa-white leading-[1.05] mb-5">
+          <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             About Us
           </h1>
           <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
@@ -66,7 +67,7 @@ export default function AboutPage() {
       <section className="bg-sasa-white py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="w-12 h-px bg-sasa-brown/30 mx-auto mb-10" />
-          <p className="font-serif text-3xl md:text-4xl lg:text-[2.6rem] text-sasa-brown leading-[1.45] italic">
+          <p className="font-serif heading-md text-sasa-brown italic">
             &ldquo;Every trip is thoughtfully crafted to reveal the depth,
             beauty, history, and character of each place. We go beyond the
             expected, weaving together culture, landscape, people, and story in
@@ -84,7 +85,7 @@ export default function AboutPage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
                 Who We Are
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
+              <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
                 Sharing Africa as Those Who Know It Best
               </h2>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
@@ -158,7 +159,7 @@ export default function AboutPage() {
             <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-4">
               What Sets Us Apart
             </p>
-            <h2 className="font-serif font-semibold text-4xl md:text-5xl lg:text-6xl text-sasa-brown">
+            <h2 className="font-serif font-semibold heading-lg text-sasa-brown">
               The Sasa Travel Difference
             </h2>
           </div>
@@ -170,7 +171,7 @@ export default function AboutPage() {
                   {point.number}
                 </span>
                 <div>
-                  <h3 className="font-serif font-semibold text-2xl text-sasa-brown mb-3">
+                  <h3 className="font-serif font-semibold heading-sm text-sasa-brown mb-3">
                     {point.title}
                   </h3>
                   <p className="text-sasa-black/65 text-base leading-relaxed">
@@ -189,7 +190,7 @@ export default function AboutPage() {
           <p className="text-sasa-white/55 text-xs tracking-[0.4em] uppercase mb-6">
             Begin Your Journey
           </p>
-          <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-white mb-8 leading-snug">
+          <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
             It Would Be a Privilege to Share Africa With You
           </h2>
           <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">
@@ -226,7 +227,7 @@ export default function AboutPage() {
               >
                 <path d="M0 24V13.7C0 5.7 4 1.1 12 0l1.3 2C9 3 6.8 5.1 5.8 8.3H12V24H0zm17.3 0V13.7c0-8 4-12.6 12-13.7l1.3 2c-4.3 1-6.5 3.1-7.5 6.3H30V24H17.3z" />
               </svg>
-              <p className="font-serif text-3xl md:text-4xl lg:text-[2.4rem] text-sasa-brown italic leading-[1.45] mb-10">
+              <p className="font-serif heading-md text-sasa-brown italic leading-[1.45] mb-10">
                 When you come from Africa, you never stop wanting to share it.
                 It can be a complex place, but it is also full of warmth,
                 creativity, passion, and extraordinary beauty.
@@ -261,7 +262,7 @@ export default function AboutPage() {
               <p className="text-sasa-sec-brown text-xs tracking-[0.3em] uppercase mb-6">
                 The Team
               </p>
-              <h2 className="font-serif font-semibold text-4xl md:text-5xl text-sasa-brown mb-8 leading-snug">
+              <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
                 Led by African Insight, Shaped by Trust
               </h2>
               <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
