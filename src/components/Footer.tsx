@@ -40,7 +40,7 @@ export default function Footer() {
               height={50}
               className="h-10 w-auto mb-6"
             />
-            <p className="text-sasa-black/70 text-sm leading-relaxed max-w-xs">
+            <p className="text-sasa-black/60 text-sm leading-relaxed max-w-xs">
               Experience Africa through the eyes of locals — personal journeys
               shaped by real connection, rich culture, and unforgettable
               wildlife.
@@ -49,7 +49,7 @@ export default function Footer() {
 
           {/* Explore */}
           <div>
-            <h4 className="text-sasa-black/70 text-xs tracking-sm-plus uppercase mb-5 font-medium">
+            <h4 className="text-sasa-black/60 text-xs tracking-sm-plus uppercase mb-5 font-medium">
               Explore
             </h4>
             <ul className="space-y-3">
@@ -57,7 +57,7 @@ export default function Footer() {
                 <li key={item.name}>
                   <Link
                     href={item.href}
-                    className="text-sasa-brown text-sm hover:text-sasa-brown/70 transition-colors duration-300"
+                    className="text-sasa-brown text-sm hover:text-sasa-brown/60 transition-colors duration-300"
                   >
                     {item.name}
                   </Link>
@@ -68,7 +68,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-sasa-black/70 text-xs tracking-sm-plus uppercase mb-5 font-medium">
+            <h4 className="text-sasa-black/60 text-xs tracking-sm-plus uppercase mb-5 font-medium">
               Find Us
             </h4>
             <address className="not-italic text-sasa-brown text-sm leading-relaxed space-y-3">
@@ -76,7 +76,7 @@ export default function Footer() {
                 <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <a
                   href="mailto:hello@sasatravel.co"
-                  className="hover:text-sasa-brown/70 transition-colors"
+                  className="hover:text-sasa-brown/60 transition-colors"
                 >
                   hello@sasatravel.co
                 </a>
@@ -85,7 +85,7 @@ export default function Footer() {
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <a
                   href="tel:+13105550800"
-                  className="hover:text-sasa-brown/70 transition-colors"
+                  className="hover:text-sasa-brown/60 transition-colors"
                 >
                   +1 (310) 555-0800
                 </a>

@@ -50,13 +50,13 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/85 via-sasa-brown/20 to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white/55 text-sm tracking-xl uppercase mb-5">
+          <p className="text-sasa-white/60 text-sm tracking-xl uppercase mb-5">
             Our Story
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             About Us
           </h1>
-          <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
+          <p className="text-sasa-white/60 text-lg max-w-xl leading-relaxed">
             We are locally rooted and deeply connected to the places we share —
             designed by an all-African team that knows Africa as home.
           </p>
@@ -88,20 +88,20 @@ export default function AboutPage() {
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
                 Sharing Africa as Those Who Know It Best
               </h2>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-6">
                 We are locally rooted and deeply connected to the places we
                 share. Our journeys are shaped by lived experience, local
                 knowledge, and a genuine love for the continent — designed by an
                 all-African team that knows Africa as home, not just as a
                 destination.
               </p>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-6">
                 We believe travel should do more than show you somewhere new —
                 it should move you. When every detail is handled with care,
                 you&apos;re free to be fully present, take it all in, and
                 experience Africa in a deeper way.
               </p>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-10">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-10">
                 With local insight, thoughtful design, and heartfelt
                 hospitality, we create journeys that invite you to reconnect —
                 with the place, with the moment, and with yourself.
@@ -174,7 +174,7 @@ export default function AboutPage() {
                   <h3 className="font-serif font-semibold heading-sm text-sasa-brown mb-3">
                     {point.title}
                   </h3>
-                  <p className="text-sasa-black/65 text-base leading-relaxed">
+                  <p className="text-sasa-black/60 text-base leading-relaxed">
                     {point.body}
                   </p>
                 </div>
@@ -187,13 +187,13 @@ export default function AboutPage() {
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section className="bg-sasa-brown py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
+          <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-6">
             Begin Your Journey
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
             It Would Be a Privilege to Share Africa With You
           </h2>
-          <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">
+          <p className="text-sasa-white/60 text-base leading-relaxed mb-12 max-w-xl mx-auto">
             Whatever you&apos;re looking for — an extraordinary safari, a
             cultural immersion, a multi-country adventure — we&apos;re here to
             help shape it into something deeply personal and truly memorable.
@@ -232,11 +232,11 @@ export default function AboutPage() {
                 It can be a complex place, but it is also full of warmth,
                 creativity, passion, and extraordinary beauty.
               </p>
-              <div className="border-t border-sasa-brown/15 pt-7">
+              <div className="border-t border-sasa-brown/10 pt-7">
                 <p className="font-serif text-2xl text-sasa-brown mb-1">
                   Emmanuel Kwizera
                 </p>
-                <p className="text-sasa-brown/45 text-xs tracking-sm-plus uppercase">
+                <p className="text-sasa-brown/40 text-xs tracking-sm-plus uppercase">
                   Founder &amp; CEO, Sasa Travel
                 </p>
               </div>
@@ -265,7 +265,7 @@ export default function AboutPage() {
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
                 Led by African Insight, Shaped by Trust
               </h2>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-6">
                 Sasa Travel is led by an all-African team with deep local
                 knowledge and a real connection to the places we share. Our work
                 is built on long-standing relationships with guides, hospitality
@@ -273,14 +273,14 @@ export default function AboutPage() {
                 continent — relationships rooted in trust, care, and mutual
                 respect.
               </p>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-6">
                 That foundation gives us the insight and access to create
                 journeys that feel thoughtful, personal, and genuinely well
                 connected. Every detail is handled with care, and every partner
                 we work with is chosen for their quality, integrity, and shared
                 values.
               </p>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-10">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-10">
                 It also allows us to create experiences that feel distinctive
                 and meaningful — from carefully designed itineraries to more
                 ambitious journeys that reflect our commitment to innovation,

@@ -13,7 +13,7 @@ export default function StartYourTripPage() {
     <>
       {/* ── Page Header ───────────────────────────────────────────────── */}
       <section className="relative py-28 md:py-36 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-sasa-brown/90 via-sasa-brown/70 to-sasa-brown/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-sasa-brown/80 via-sasa-brown/60 to-sasa-brown/80" />
         <div className="absolute inset-0 opacity-15">
           <Image
             src="/images/Botswana/8776.jpg"
@@ -23,16 +23,16 @@ export default function StartYourTripPage() {
             sizes="100vw"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-sasa-brown/40 to-sasa-brown/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-sasa-brown/40 to-sasa-brown/80" />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
+          <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-6">
             Begin Conversation
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-6">
             Start Your Trip
           </h1>
-          <p className="text-sasa-white/70 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
+          <p className="text-sasa-white/60 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
             Share a few details about the journey you&apos;re looking for and
             we&apos;ll match you with the right person on our team.
           </p>
@@ -82,7 +82,7 @@ export default function StartYourTripPage() {
                       <h3 className="font-medium heading-xs text-sasa-brown mb-1.5">
                         {s.title}
                       </h3>
-                      <p className="text-sasa-black/55 text-sm leading-relaxed">
+                      <p className="text-sasa-black/60 text-sm leading-relaxed">
                         {s.body}
                       </p>
                     </div>
@@ -92,7 +92,7 @@ export default function StartYourTripPage() {
 
               {/* Contact details */}
               <div className="border-t border-sasa-black/10 pt-8">
-                <p className="text-sasa-black/45 text-xs tracking-md uppercase mb-5">
+                <p className="text-sasa-black/40 text-xs tracking-md uppercase mb-5">
                   Other Ways to Connect
                 </p>
                 <div className="space-y-4">

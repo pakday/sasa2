@@ -127,17 +127,17 @@ export default function CuratedEscapesPage() {
         >
           <source src="/videos/184737-873923039.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-sasa-brown/35" />
+        <div className="absolute inset-0 bg-sasa-brown/40" />
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/80 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white/55 text-sm tracking-xl uppercase mb-5">
+          <p className="text-sasa-white/60 text-sm tracking-xl uppercase mb-5">
             Special Journeys
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             Curated Escapes
           </h1>
-          <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
+          <p className="text-sasa-white/60 text-lg max-w-xl leading-relaxed">
             Thoughtfully designed journeys across the continent — crafted with
             local insight, care, and quiet precision.
           </p>
@@ -147,7 +147,7 @@ export default function CuratedEscapesPage() {
       {/* ── Intro ─────────────────────────────────────────────────────── */}
       <section className="bg-sasa-white py-16 md:py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-black/65 text-base md:text-lg leading-relaxed">
+          <p className="text-sasa-black/60 text-base md:text-lg leading-relaxed">
             Each Curated Escape is a fully planned journey designed to immerse
             you in the best of its destination. Every detail — from the lodges
             to the guides to the timing — is thoughtfully considered so you can
@@ -199,10 +199,10 @@ export default function CuratedEscapesPage() {
                   <h3 className="font-serif font-semibold heading-md text-sasa-brown mb-2 leading-snug">
                     {escape.title}
                   </h3>
-                  <p className="text-sasa-black/50 text-sm tracking-wide italic mb-7">
+                  <p className="text-sasa-black/40 text-sm tracking-wide italic mb-7">
                     {escape.subtitle}
                   </p>
-                  <p className="text-sasa-black/65 text-sm leading-relaxed mb-8">
+                  <p className="text-sasa-black/60 text-sm leading-relaxed mb-8">
                     {escape.description}
                   </p>
                   <div className="mb-8">
@@ -213,7 +213,7 @@ export default function CuratedEscapesPage() {
                       {escape.highlights.map((h) => (
                         <span
                           key={h}
-                          className="border border-sasa-brown/25 text-sasa-brown text-xs tracking-wide px-3 py-1"
+                          className="border border-sasa-brown/20 text-sasa-brown text-xs tracking-wide px-3 py-1"
                         >
                           {h}
                         </span>

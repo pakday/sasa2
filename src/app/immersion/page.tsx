@@ -68,17 +68,17 @@ export default function ImmersionPage() {
         >
           <source src="/videos/226782.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-sasa-brown/35" />
+        <div className="absolute inset-0 bg-sasa-brown/40" />
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/80 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white/55 text-sm tracking-xl uppercase mb-5">
+          <p className="text-sasa-white/60 text-sm tracking-xl uppercase mb-5">
             Professional Experience
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             Immersion
           </h1>
-          <p className="text-sasa-white/70 text-lg max-w-2xl leading-relaxed">
+          <p className="text-sasa-white/60 text-lg max-w-2xl leading-relaxed">
             A thoughtfully designed three-month experience open to anyone ready
             to build real skills, global perspective, and meaningful connections
             across Africa.
@@ -97,19 +97,19 @@ export default function ImmersionPage() {
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-8 leading-snug">
                 Work. Learn. Connect. Across Africa.
               </h2>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-6">
                 Our Immersion experience is a thoughtfully designed three-month
                 opportunity for anyone looking to gain hands-on professional
                 experience in Africa. Working alongside our local teams,
                 volunteers support businesses in areas aligned with their field
                 of interest.
               </p>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-6">
                 You&apos;ll build practical skills, develop genuine global
                 perspective, and gain meaningful on-the-ground experience that
                 goes far beyond the classroom.
               </p>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-10">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-10">
                 This experience currently runs in three cities across Africa,
                 each offering a distinct culture, business environment, and
                 opportunity to learn through real work while engaging directly
@@ -243,7 +243,7 @@ export default function ImmersionPage() {
                   <h3 className="font-serif font-semibold text-3xl text-sasa-brown mb-5">
                     {loc.city}
                   </h3>
-                  <p className="text-sasa-black/65 text-sm leading-relaxed mb-7">
+                  <p className="text-sasa-black/60 text-sm leading-relaxed mb-7">
                     {loc.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -266,13 +266,13 @@ export default function ImmersionPage() {
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section className="bg-sasa-brown py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
+          <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-6">
             Ready to Begin?
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
             Let&apos;s Explore This Experience Together
           </h2>
-          <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">
+          <p className="text-sasa-white/60 text-base leading-relaxed mb-12 max-w-xl mx-auto">
             Whether you&apos;re looking to take part, a university or
             institution seeking partnerships, or interested in hosting —
             we&apos;d love to connect with you.

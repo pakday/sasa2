@@ -69,7 +69,7 @@ export default function JournalPage() {
     <>
       {/* ── Hero ──────────────────────────────────────────────────────── */}
       <section className="relative min-h-[55vh] flex items-end justify-start overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-sasa-brown/90 via-sasa-brown/60 to-sasa-brown/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-sasa-brown/80 via-sasa-brown/60 to-sasa-brown/80" />
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/95 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
@@ -79,7 +79,7 @@ export default function JournalPage() {
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             Journal
           </h1>
-          <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
+          <p className="text-sasa-white/60 text-lg max-w-xl leading-relaxed">
             Destination guides, travel philosophy, and stories from the field —
             written by those who know Africa as home.
           </p>
@@ -114,16 +114,16 @@ export default function JournalPage() {
                     <span className="text-sasa-sec-brown text-xs tracking-sm-plus uppercase">
                       {post.category}
                     </span>
-                    <span className="text-sasa-black/50 text-xs">
+                    <span className="text-sasa-black/40 text-xs">
                       {post.date}
                     </span>
                   </div>
                   <Link href={`/journal/${slug}`}>
-                    <h3 className="font-serif font-semibold heading-xs text-sasa-brown mb-3 leading-snug flex-1 hover:text-sasa-brown/70 transition-colors cursor-pointer">
+                    <h3 className="font-serif font-semibold heading-xs text-sasa-brown mb-3 leading-snug flex-1 hover:text-sasa-brown/60 transition-colors cursor-pointer">
                       {post.title}
                     </h3>
                   </Link>
-                  <p className="text-sasa-black/70 text-sm leading-relaxed mb-5">
+                  <p className="text-sasa-black/60 text-sm leading-relaxed mb-5">
                     {post.excerpt}
                   </p>
                   <Link
@@ -155,13 +155,13 @@ export default function JournalPage() {
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section className="bg-sasa-brown py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
+          <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-6">
             Ready to Begin?
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-7 leading-snug">
             Let&apos;s Plan Your Journey
           </h2>
-          <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">
+          <p className="text-sasa-white/60 text-base leading-relaxed mb-12 max-w-xl mx-auto">
             Every destination in our journal is one our team knows deeply. Share
             what speaks to you and we&apos;ll help shape it into something truly
             personal.

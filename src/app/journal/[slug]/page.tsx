@@ -192,7 +192,7 @@ export default async function PostPage({
         <div className="absolute top-6 left-6 lg:top-10 lg:left-10 z-20">
           <Link
             href="/journal"
-            className="flex items-center gap-2 text-sasa-white hover:text-sasa-white/70 transition-colors"
+            className="flex items-center gap-2 text-sasa-white hover:text-sasa-white/60 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
             Back
@@ -207,7 +207,7 @@ export default async function PostPage({
             <h1 className="font-serif font-semibold heading-xl leading-tight mb-4">
               {post.title}
             </h1>
-            <p className="text-sasa-white/70 text-sm">{post.date}</p>
+            <p className="text-sasa-white/60 text-sm">{post.date}</p>
           </div>
         </div>
       </section>
@@ -215,7 +215,7 @@ export default async function PostPage({
       {/* ── Content ────────────────────────────────────────────────── */}
       <section className="bg-sasa-white py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-6 lg:px-12">
-          <p className="text-sasa-black/70 text-base leading-relaxed whitespace-pre-wrap mb-8">
+          <p className="text-sasa-black/60 text-base leading-relaxed whitespace-pre-wrap mb-8">
             {post.content}
           </p>
 
@@ -247,7 +247,7 @@ export default async function PostPage({
                           className="object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                       </div>
-                      <h4 className="font-serif font-semibold text-lg text-sasa-brown mb-2 group-hover:text-sasa-brown/70 transition-colors">
+                      <h4 className="font-serif font-semibold text-lg text-sasa-brown mb-2 group-hover:text-sasa-brown/60 transition-colors">
                         {relatedPost.title}
                       </h4>
                       <p className="text-sasa-black/60 text-sm">

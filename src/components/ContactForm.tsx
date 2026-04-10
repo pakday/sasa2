@@ -140,7 +140,7 @@ export default function ContactForm({
               value={form.firstName}
               onChange={handleChange}
               autoComplete="given-name"
-              className="w-full border border-sasa-black/20 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/25 focus:outline-none focus:border-sasa-brown transition-colors"
+              className="w-full border border-sasa-black/20 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/20 focus:outline-none focus:border-sasa-brown transition-colors"
             />
           </div>
 
@@ -160,7 +160,7 @@ export default function ContactForm({
               value={form.lastName}
               onChange={handleChange}
               autoComplete="family-name"
-              className="w-full border border-sasa-black/20 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/25 focus:outline-none focus:border-sasa-brown transition-colors"
+              className="w-full border border-sasa-black/20 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/20 focus:outline-none focus:border-sasa-brown transition-colors"
             />
           </div>
 
@@ -180,7 +180,7 @@ export default function ContactForm({
               value={form.email}
               onChange={handleChange}
               autoComplete="email"
-              className="w-full border border-sasa-black/20 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/25 focus:outline-none focus:border-sasa-brown transition-colors"
+              className="w-full border border-sasa-black/20 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/20 focus:outline-none focus:border-sasa-brown transition-colors"
             />
           </div>
 
@@ -208,7 +208,7 @@ export default function ContactForm({
                   ))}
                 </select>
                 <svg
-                  className="absolute right-1.5 top-1/2 -translate-y-1/2 w-3 h-3 text-sasa-black/50 pointer-events-none"
+                  className="absolute right-1.5 top-1/2 -translate-y-1/2 w-3 h-3 text-sasa-black/40 pointer-events-none"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -221,7 +221,7 @@ export default function ContactForm({
                   />
                 </svg>
               </div>
-              <div className="w-px bg-sasa-black/15 self-stretch" />
+              <div className="w-px bg-sasa-black/10 self-stretch" />
               <input
                 id="phone"
                 name="phone"
@@ -231,7 +231,7 @@ export default function ContactForm({
                 onChange={handleChange}
                 autoComplete="tel-national"
                 placeholder={form.countryCode}
-                className="flex-1 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/25 focus:outline-none"
+                className="flex-1 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/20 focus:outline-none"
               />
             </div>
           </div>
@@ -272,7 +272,7 @@ export default function ContactForm({
                 ))}
               </select>
               <svg
-                className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-sasa-black/50 pointer-events-none"
+                className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-sasa-black/40 pointer-events-none"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -314,7 +314,7 @@ export default function ContactForm({
                 ))}
               </select>
               <svg
-                className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-sasa-black/50 pointer-events-none"
+                className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-sasa-black/40 pointer-events-none"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -345,7 +345,7 @@ export default function ContactForm({
             value={form.message}
             onChange={handleChange}
             placeholder="Type here..."
-            className="w-full border border-sasa-black/20 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/25 focus:outline-none focus:border-sasa-brown transition-colors resize-none"
+            className="w-full border border-sasa-black/20 bg-transparent px-4 py-3 text-sasa-black text-sm placeholder-sasa-black/20 focus:outline-none focus:border-sasa-brown transition-colors resize-none"
           />
         </div>
       </div>

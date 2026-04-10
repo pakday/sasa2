@@ -210,7 +210,7 @@ export default function HomePage() {
 
         {/* Subtle overlay — keep video vivid */}
         <div className="absolute inset-0 bg-sasa-brown/30" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-sasa-brown/55" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-sasa-brown/60" />
 
         {/* Content */}
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
@@ -288,13 +288,13 @@ export default function HomePage() {
                 Journeys That Connect You <br className="hidden lg:block" />
                 to the True Africa
               </h2>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-6">
                 At Sasa Travel, we believe the most meaningful journeys are the
                 ones that stay with you. We create thoughtful, personal
                 experiences across Africa that connect you to its people,
                 landscapes, and culture in a deeper way.
               </p>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-10">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-10">
                 Guided by an all-African team with deep local knowledge, every
                 journey we craft is designed to feel seamless, elevated, and
                 deeply connected to the spirit of Africa — so you leave with
@@ -357,9 +357,9 @@ export default function HomePage() {
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/50 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/60 via-transparent to-transparent" />
                     <div className="absolute top-4 left-4">
-                      <span className="bg-sasa-white/90 text-sasa-brown text-xs tracking-xs-2 uppercase px-3 py-1.5 font-medium">
+                      <span className="bg-sasa-white/80 text-sasa-brown text-xs tracking-xs-2 uppercase px-3 py-1.5 font-medium">
                         {regionTag}
                       </span>
                     </div>
@@ -370,7 +370,7 @@ export default function HomePage() {
                   <p className="text-sasa-sec-brown text-xs tracking-sm uppercase mb-3">
                     {dest.sub}
                   </p>
-                  <p className="text-sasa-black/70 text-sm leading-relaxed mb-5 flex-1">
+                  <p className="text-sasa-black/60 text-sm leading-relaxed mb-5 flex-1">
                     {destinations.find((d) => d.name === dest.name)
                       ?.description || ""}
                   </p>
@@ -428,12 +428,12 @@ export default function HomePage() {
               <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-8 leading-snug">
                 Africa Has Always Remained the Place That Grounds Me Most
               </h2>
-              <p className="text-sasa-white/70 text-base leading-relaxed mb-5">
+              <p className="text-sasa-white/60 text-base leading-relaxed mb-5">
                 I was born and raised in Rwanda, and although I now live between
                 Los Angeles, London, and Rwanda, Africa has always remained the
                 place that grounds me most.
               </p>
-              <p className="text-sasa-white/70 text-base leading-relaxed mb-5">
+              <p className="text-sasa-white/60 text-base leading-relaxed mb-5">
                 Having traveled across the continent, I&apos;ve come to
                 appreciate that what makes Africa unforgettable is not just its
                 beauty, wildlife, or landscapes — but the feeling it gives you.
@@ -441,20 +441,20 @@ export default function HomePage() {
                 to find anywhere else. Every time I return, I feel it again.
                 Home.
               </p>
-              <p className="text-sasa-white/70 text-base leading-relaxed mb-5">
+              <p className="text-sasa-white/60 text-base leading-relaxed mb-5">
                 This company was born from a desire to share that feeling with
                 others through journeys that are thoughtful, personal, and
                 rooted in real experience. I want travelers to see Africa beyond
                 the obvious — through its people, culture, landscapes, and the
                 quiet moments that leave a lasting mark.
               </p>
-              <p className="text-sasa-white/70 text-base leading-relaxed mb-10">
+              <p className="text-sasa-white/60 text-base leading-relaxed mb-10">
                 It would be a privilege for me and my team to help shape that
                 experience with you.
               </p>
-              <div className="border-t border-sasa-white/15 pt-6">
+              <div className="border-t border-sasa-white/10 pt-6">
                 <p className="font-serif text-2xl text-sasa-white">Emmanuel</p>
-                <p className="text-sasa-white/45 text-xs tracking-sm-plus uppercase mt-1">
+                <p className="text-sasa-white/40 text-xs tracking-sm-plus uppercase mt-1">
                   Founder &amp; CEO, Sasa Travel
                 </p>
               </div>
@@ -494,7 +494,7 @@ export default function HomePage() {
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width: 1024px) 100vw, 33vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/55 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/60 via-transparent to-transparent" />
                   <div className="absolute top-4 left-4">
                     <span className="bg-sasa-brown text-sasa-white text-xs tracking-sm uppercase px-3 py-1.5">
                       {trip.tag}
@@ -568,7 +568,7 @@ export default function HomePage() {
                 <p className="text-sasa-brown font-serif text-xl italic mb-4 leading-snug">
                   &ldquo;{t.heading}&rdquo;
                 </p>
-                <p className="text-sasa-black/65 text-sm leading-relaxed flex-1 mb-6">
+                <p className="text-sasa-black/60 text-sm leading-relaxed flex-1 mb-6">
                   {t.quote}
                 </p>
                 <div className="border-t border-sasa-black/8 pt-5">
@@ -603,12 +603,12 @@ export default function HomePage() {
               <h2 className="font-serif font-semibold heading-lg text-sasa-brown mb-6 leading-tight">
                 Travel That Gives Back
               </h2>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-6">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-6">
                 We support youth-led small businesses in the communities
                 connected to the places and safari regions our journeys touch —
                 helping create more local opportunity alongside travel.
               </p>
-              <p className="text-sasa-black/65 text-base leading-relaxed mb-10">
+              <p className="text-sasa-black/60 text-base leading-relaxed mb-10">
                 To share Africa&apos;s wild beauty is a privilege we approach
                 with care and responsibility. Meaningful travel should leave
                 more than memories — it should deepen awareness of what is worth
@@ -627,7 +627,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
-              <p className="text-sasa-black/45 text-xs tracking-md-plus uppercase mb-4">
+              <p className="text-sasa-black/40 text-xs tracking-md-plus uppercase mb-4">
                 From the Journal
               </p>
               <h2 className="font-serif font-semibold heading-xl text-sasa-brown">
@@ -677,7 +677,7 @@ export default function HomePage() {
             sizes="100vw"
           />
         </div>
-        <div className="absolute inset-0 bg-sasa-brown/70" />
+        <div className="absolute inset-0 bg-sasa-brown/80" />
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
           <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-6">
             Ready to Explore?
@@ -686,7 +686,7 @@ export default function HomePage() {
             Your Africa Journey <br className="hidden md:block" />
             Begins Here
           </h2>
-          <p className="text-sasa-white/70 text-base md:text-lg leading-relaxed mb-12 max-w-xl mx-auto">
+          <p className="text-sasa-white/60 text-base md:text-lg leading-relaxed mb-12 max-w-xl mx-auto">
             Connect with our travel designers to start planning your bespoke
             African experience — crafted around your interests, timeline, and
             vision.

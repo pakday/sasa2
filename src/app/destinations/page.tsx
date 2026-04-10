@@ -138,17 +138,17 @@ export default function DestinationsPage() {
         >
           <source src="/videos/226795.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-sasa-brown/35" />
+        <div className="absolute inset-0 bg-sasa-brown/40" />
         <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/80 via-transparent to-transparent" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 pb-20 w-full">
-          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-5">
+          <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-5">
             Explore Africa
           </p>
           <h1 className="font-serif font-semibold heading-xl text-sasa-white mb-5">
             Destinations
           </h1>
-          <p className="text-sasa-white/70 text-lg max-w-xl leading-relaxed">
+          <p className="text-sasa-white/60 text-lg max-w-xl leading-relaxed">
             Thoughtfully curated journeys across the continent — guided by local
             insight, designed for depth.
           </p>
@@ -158,7 +158,7 @@ export default function DestinationsPage() {
       {/* ── Intro ─────────────────────────────────────────────────────── */}
       <section className="bg-sasa-white py-16 md:py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-black/65 text-base md:text-lg leading-relaxed">
+          <p className="text-sasa-black/60 text-base md:text-lg leading-relaxed">
             From the wildlife-rich savannas of East Africa to the dunes of the
             Sahara and the islands of the Indian Ocean — each destination we
             share is one we know deeply. These are places our team calls home,
@@ -185,9 +185,9 @@ export default function DestinationsPage() {
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/55 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-sasa-brown/60 via-transparent to-transparent" />
                   <div className="absolute top-4 left-4">
-                    <span className="bg-sasa-white/90 text-sasa-brown text-xs tracking-xs uppercase px-3 py-1.5 font-medium">
+                    <span className="bg-sasa-white/80 text-sasa-brown text-xs tracking-xs uppercase px-3 py-1.5 font-medium">
                       {dest.region}
                     </span>
                   </div>
@@ -229,13 +229,13 @@ export default function DestinationsPage() {
       {/* ── CTA ───────────────────────────────────────────────────────── */}
       <section className="bg-sasa-brown py-20 md:py-28">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <p className="text-sasa-white/55 text-xs tracking-xl uppercase mb-6">
+          <p className="text-sasa-white/60 text-xs tracking-xl uppercase mb-6">
             Ready to Begin?
           </p>
           <h2 className="font-serif font-semibold heading-lg text-sasa-white mb-7 leading-snug">
             Not Sure Where to Start?
           </h2>
-          <p className="text-sasa-white/65 text-base leading-relaxed mb-12 max-w-xl mx-auto">
+          <p className="text-sasa-white/60 text-base leading-relaxed mb-12 max-w-xl mx-auto">
             Our team knows these destinations as home. Share a little about what
             you&apos;re looking for, and we&apos;ll help you find the journey
             that&apos;s right for you.
