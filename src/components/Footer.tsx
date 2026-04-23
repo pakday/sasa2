@@ -144,13 +144,13 @@ export default function Footer() {
           </p>
           <div className="flex gap-6">
             <Link
-              href="/privacy"
+              href="/privacy-policy"
               className="text-sasa-black/40 text-xs hover:text-sasa-brown transition-colors"
             >
               Privacy Policy
             </Link>
             <Link
-              href="/terms"
+              href="/terms-of-use"
               className="text-sasa-black/40 text-xs hover:text-sasa-brown transition-colors"
             >
               Terms of Use
