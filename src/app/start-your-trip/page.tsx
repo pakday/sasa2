@@ -108,16 +108,33 @@ export default function StartYourTripPage() {
                     </a>
                   </div>
                   <div>
-                    <p className="text-sasa-black/40 text-xs uppercase tracking-wider mb-1">
-                      Office
+                    <p className="text-sasa-black/40 text-xs uppercase tracking-wider mb-3">
+                      Offices
                     </p>
-                    <address className="not-italic text-sasa-brown text-sm leading-relaxed">
-                      8424 Santa Monica Blvd
-                      <br />
-                      Los Angeles, CA 90069
-                      <br />
-                      United States
-                    </address>
+                    <div className="space-y-4">
+                      <div>
+                        <p className="text-sasa-black/40 text-xs uppercase tracking-wider mb-1 font-medium">
+                          US Address
+                        </p>
+                        <address className="not-italic text-sasa-brown text-sm leading-relaxed">
+                          8424 Santa Monica Blvd
+                          <br />
+                          Los Angeles, CA 90069
+                          <br />
+                          United States
+                        </address>
+                      </div>
+                      <div>
+                        <p className="text-sasa-black/40 text-xs uppercase tracking-wider mb-1 font-medium">
+                          Africa Address
+                        </p>
+                        <address className="not-italic text-sasa-brown text-sm leading-relaxed">
+                          KG 622 St
+                          <br />
+                          Kigali, Rwanda
+                        </address>
+                      </div>
+                    </div>
                   </div>
                   <div>
                     <p className="text-sasa-black/40 text-xs uppercase tracking-wider mb-1">

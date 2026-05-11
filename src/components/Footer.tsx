@@ -118,13 +118,31 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <p>
-                  8424 Santa Monica Blvd
-                  <br />
-                  Los Angeles, CA 90069
-                  <br />
-                  United States
-                </p>
+                <div>
+                  <p className="text-sasa-black/60 text-xs uppercase tracking-wide font-medium mb-1">
+                    US Address
+                  </p>
+                  <p>
+                    8424 Santa Monica Blvd
+                    <br />
+                    Los Angeles, CA 90069
+                    <br />
+                    United States
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <div>
+                  <p className="text-sasa-black/60 text-xs uppercase tracking-wide font-medium mb-1">
+                    Africa Address
+                  </p>
+                  <p>
+                    KG 622 St
+                    <br />
+                    Kigali, Rwanda
+                  </p>
+                </div>
               </div>
             </address>
             <div className="mt-8">
